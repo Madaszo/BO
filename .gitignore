@@ -1,0 +1,26 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local outputs
+results/*.csv
+results/*.json
+!results/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak

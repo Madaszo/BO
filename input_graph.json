@@ -1,0 +1,14 @@
+{
+  "edges": [
+    {"id": "e1", "base_time": 14, "load": 7},
+    {"id": "e2", "base_time": 11, "load": 9},
+    {"id": "e3", "base_time": 9, "load": 4},
+    {"id": "e4", "base_time": 18, "load": 10},
+    {"id": "e5", "base_time": 8, "load": 3},
+    {"id": "e6", "base_time": 13, "load": 8},
+    {"id": "e7", "base_time": 10, "load": 6},
+    {"id": "e8", "base_time": 16, "load": 11}
+  ],
+  "crew_costs": [6, 8, 7, 10, 9, 11],
+  "budget": 28
+}
