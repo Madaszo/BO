@@ -38,6 +38,7 @@ def run_single_graph(graph_file: str, repetitions: int, iterations: int, out_fil
 
     rows = []
     matrix_runs = []
+    history_runs = []
 
     for rep in range(repetitions):
         print(f"Running repetition {rep + 1}/{repetitions} for fixed graph...")
@@ -121,10 +122,25 @@ def run_single_graph(graph_file: str, repetitions: int, iterations: int, out_fil
             }
         )
 
+        history_runs.append(
+            {
+                "rep": rep,
+                "ga": {
+                    "history_best_fitness": ga_result.history,
+                    "history_length": len(ga_result.history),
+                },
+                "bee": {
+                    "history_best_fitness": bee_result.history,
+                    "history_length": len(bee_result.history),
+                },
+            }
+        )
+
     out_dir = Path("results")
     out_dir.mkdir(exist_ok=True)
     out_csv = out_dir / out_file
     out_matrices = out_dir / out_file.replace(".csv", "_matrices.json")
+    out_history = out_dir / out_file.replace(".csv", "_history.json")
 
     with out_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
@@ -158,8 +174,21 @@ def run_single_graph(graph_file: str, repetitions: int, iterations: int, out_fil
     }
     out_matrices.write_text(json.dumps(matrices_payload, indent=2), encoding="utf-8")
 
+    history_payload = {
+        "graph_file": graph_file,
+        "repetitions": repetitions,
+        "iterations": iterations,
+        "notes": {
+            "ga": "history_best_fitness contains best fitness value from each generation",
+            "bee": "history_best_fitness contains best fitness value from each iteration",
+        },
+        "runs": history_runs,
+    }
+    out_history.write_text(json.dumps(history_payload, indent=2), encoding="utf-8")
+
     print(f"Saved raw results to: {out_csv}")
     print(f"Saved solution matrices to: {out_matrices}")
+    print(f"Saved optimization histories to: {out_history}")
 
     print("\nSummary for fixed graph:")
     for solver in ("GA", "Bee"):

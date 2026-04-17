@@ -54,6 +54,7 @@ Program wygeneruje:
 
 - `results/single_graph_results.csv`: metryki uruchomien
 - `results/single_graph_results_matrices.json`: macierze przypisan, harmonogramy i overlaps
+- `results/single_graph_results_history.json`: historia najlepszego fitnessu z kazdej iteracji/pokolenia
 
 ## Format Danych Wejsciowych (`--graph`)
 
@@ -85,6 +86,7 @@ Przyklad:
 Najwazniejszy plik do dashboardu:
 
 - `results/*_matrices.json`
+- `results/*_history.json`
 
 Zawiera m.in.:
 
@@ -93,6 +95,12 @@ Zawiera m.in.:
 - `best_overall.*.schedule` (start, end, interwaly ekip)
 - `best_overall.*.overlaps_count` i `schedule.overlaps`
 - `runs`: wszystkie powtorzenia
+
+Plik `*_history.json` zawiera:
+
+- `runs[].ga.history_best_fitness`: najlepszy fitness GA dla kazdego pokolenia
+- `runs[].bee.history_best_fitness`: najlepszy fitness Bee dla kazdej iteracji
+- `runs[].*.history_length`: dlugosc historii dla walidacji
 
 Szczegoly mapowania sa w [docs/VISUALIZATION_HANDOFF.md](docs/VISUALIZATION_HANDOFF.md).
 
