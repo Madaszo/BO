@@ -1,6 +1,9 @@
 # Runtime dependencies
 # Note: Core solver currently uses Python standard library only.
 
+matplotlib==3.10.1
+requests==2.32.3
+
 # Development and collaboration tools
 pytest==8.3.5
 ruff==0.11.8

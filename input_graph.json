@@ -10,5 +10,5 @@
     {"id": "e8", "base_time": 16, "load": 11}
   ],
   "crew_costs": [6, 8, 7, 10, 9, 11],
-  "budget": 28
+  "budget": 400
 }

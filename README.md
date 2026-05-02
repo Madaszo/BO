@@ -7,6 +7,9 @@ Projekt porownuje dwa podejscia metaheurystyczne dla problemu przydzialu ekip re
 
 Celem jest minimalizacja wazonego czasu remontow przy ograniczeniu budzetowym.
 
+Uwaga: koszt ekipy liczony jest dziennie (koszt_ekipy * liczba dni pracy ekipy),
+a nie jednorazowo przy pierwszym uzyciu.
+
 W modelu dziala harmonogramowanie pracy ekip i twarda kara za nakladanie sie czasu tej samej ekipy (jedna ekipa nie moze byc jednoczesnie w dwoch miejscach).
 
 ## Co jest w repo
@@ -62,7 +65,7 @@ Wymagane pola JSON:
 
 - `edges`: lista drog, kazda droga ma `base_time` i `load`
 - `crew_costs`: koszty ekip
-- `budget`: budzet calkowity
+- `budget`: budzet calkowity w modelu kosztu dziennego ekip
 
 Przyklad:
 

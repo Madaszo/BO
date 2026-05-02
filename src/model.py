@@ -58,43 +58,50 @@ def _repair_assignment(solution: Matrix) -> None:
 
 
 def _repair_budget(instance: ProblemInstance, solution: Matrix) -> None:
-    """Reduce active crews until total cost is within budget when possible."""
+    """Reduce expensive assignments until estimated daily crew cost fits budget."""
     crews = instance.crews_count
     edges = instance.edges_count
 
     if crews == 0 or edges == 0:
         return
 
-    # Prefer keeping cheaper crews active.
-    crews_by_cost = sorted(range(crews), key=lambda idx: instance.crew_costs[idx])
-    active = {i for i in range(crews) if any(solution[i][e] for e in range(edges))}
+    # Prefer keeping cheaper crews assigned.
+    crews_by_cost_desc = sorted(range(crews), key=lambda idx: instance.crew_costs[idx], reverse=True)
 
-    def total_cost(active_set: set[int]) -> float:
-        return sum(instance.crew_costs[i] for i in active_set)
+    edge_durations, _ = _edge_durations_with_unassigned_penalty(instance, solution, penalty_unassigned=0.0)
 
-    if total_cost(active) <= instance.budget:
+    def total_daily_cost() -> float:
+        total = 0.0
+        for crew in range(crews):
+            crew_days = sum(edge_durations[edge] for edge in range(edges) if solution[crew][edge] == 1)
+            total += crew_days * instance.crew_costs[crew]
+        return total
+
+    if total_daily_cost() <= instance.budget:
         return
 
-    # Keep at least one active crew for coverage.
-    for expensive in sorted(active, key=lambda idx: instance.crew_costs[idx], reverse=True):
-        if len(active) <= 1:
-            break
-
-        # Find replacement crew among currently active cheaper crews.
-        replacement_candidates = [c for c in crews_by_cost if c in active and c != expensive]
-        if not replacement_candidates:
+    # Move assignments from more expensive crews to cheaper crews edge by edge.
+    crews_by_cost_asc = list(reversed(crews_by_cost_desc))
+    for expensive in crews_by_cost_desc:
+        cheaper_crews = [crew for crew in crews_by_cost_asc if instance.crew_costs[crew] < instance.crew_costs[expensive]]
+        if not cheaper_crews:
             continue
-        replacement = replacement_candidates[0]
 
-        # Move assignments from expensive crew to replacement.
         for edge in range(edges):
-            if solution[expensive][edge] == 1:
-                solution[replacement][edge] = 1
-                solution[expensive][edge] = 0
+            if solution[expensive][edge] != 1:
+                continue
 
-        active.discard(expensive)
-        if total_cost(active) <= instance.budget:
-            return
+            # Keep at least one crew assigned to each edge.
+            assigned_now = sum(solution[crew][edge] for crew in range(crews))
+            if assigned_now <= 1:
+                continue
+
+            replacement = cheaper_crews[0]
+            solution[replacement][edge] = 1
+            solution[expensive][edge] = 0
+
+            if total_daily_cost() <= instance.budget:
+                return
 
 
 def clone_solution(solution: Matrix) -> Matrix:
@@ -199,6 +206,7 @@ def evaluate_solution_details(
 ) -> EvaluationResult:
     """
     Evaluate solution with explicit schedule and hard overlap penalty.
+    Objective: minimize makespan Z(s, X) = max({s_e + t(e) | e ∈ E})
     Lower fitness is better.
     """
     crews = instance.crews_count
@@ -208,15 +216,25 @@ def evaluate_solution_details(
         raise ValueError("Solution dimensions do not match instance dimensions")
 
     edge_durations, penalty = _edge_durations_with_unassigned_penalty(instance, solution, penalty_unassigned)
-    raw_objective = sum(instance.loads[edge] * edge_durations[edge] for edge in range(edges))
+    
+    schedule = _build_schedule(instance, solution, edge_durations)
+    
+    # Objective: minimize makespan (maximum completion time)
+    # Z(s, X) = max({s_e + t(e) | e ∈ E})
+    if schedule.edge_starts and schedule.edge_ends:
+        raw_objective = max(schedule.edge_ends)
+    else:
+        raw_objective = 0.0
 
-    used_crews = [1 if any(solution[crew][edge] for edge in range(edges)) else 0 for crew in range(crews)]
-    total_cost = sum(used_crews[crew] * instance.crew_costs[crew] for crew in range(crews))
+    # Budget model: crew cost is paid per day of crew work, not per first activation.
+    total_cost = 0.0
+    for crew in range(crews):
+        crew_days = sum(edge_durations[edge] for edge in range(edges) if solution[crew][edge] == 1)
+        total_cost += crew_days * instance.crew_costs[crew]
     budget_excess = max(0.0, total_cost - instance.budget)
     if budget_excess > 0:
         penalty += penalty_budget * budget_excess
 
-    schedule = _build_schedule(instance, solution, edge_durations)
     overlaps_count = len(schedule.overlaps)
     if overlaps_count > 0:
         penalty += penalty_overlap_hard * overlaps_count
