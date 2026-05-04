@@ -1,0 +1,19 @@
+[out:json][timeout:25];
+// gather results
+(
+  way["highway"="primary"]({{bbox}});
+  way["highway"="secondary"]({{bbox}});
+  way["highway"="trunk"]({{bbox}});
+  way["highway"="tertiary"]({{bbox}});
+  way["highway"="unclassified"]({{bbox}});
+  way["highway"="residential"]({{bbox}});
+  way["highway"="motorway"]({{bbox}});
+  way["highway"="motorway_link"]({{bbox}});
+  way["highway"="trunk_link"]({{bbox}});
+  way["highway"="primary_link"]({{bbox}});
+  way["highway"="secondary_link"]({{bbox}});
+  way["highway"="tertiary_link"]({{bbox}});
+  way["highway"="living_street"]({{bbox}});
+);
+// print results
+out geom;
