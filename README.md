@@ -49,15 +49,34 @@ python -m pip install -r requirements.txt
 
 ## Uruchomienie
 
+Standardowe uruchomienie dla jednego scenariusza:
+
 ```bash
 python run_experiments.py --graph input_graph.json --repetitions 10 --iterations 120 --out single_graph_results.csv
 ```
 
-Program wygeneruje:
+Nowe możliwości konfiguracyjne:
 
-- `results/single_graph_results.csv`: metryki uruchomien
-- `results/single_graph_results_matrices.json`: macierze przypisan, harmonogramy i overlaps
-- `results/single_graph_results_history.json`: historia najlepszego fitnessu z kazdej iteracji/pokolenia
+- `--ga-config <path>` — opcjonalny plik JSON z parametrami GA (np. `configs/ga_config_example.json`).
+- `--bee-config <path>` — opcjonalny plik JSON z parametrami Bee (np. `configs/bee_config_example.json`).
+- `--runs-config <path>` — opcjonalny plik JSON zawierający tablicę definicji uruchomień; każdy wpis może nadpisać `graph`, `repetitions`, `iterations`, `out`, `ga_config` i `bee_config`.
+
+Przykładowy `runs-config` znajduje się w `configs/runs_example.json` — jeżeli podasz `--runs-config`, wszystkie wpisy zostaną wykonane sekwencyjnie (najpierw pierwszy, potem drugi itd.). Parametry `repetitions` i `iterations` można przenieść do definicji każdego wpisu w `runs-config`.
+
+Pliki konfiguracyjne `ga_config` i `bee_config` mogą być podane jako:
+- ścieżka do pliku JSON, lub
+- bezpośredni obiekt JSON (inline) w `runs-config`.
+
+Format przykładowych plików konfiguracyjnych:
+
+- `configs/ga_config_example.json` możliwe pola: `population_size`, `generations`, `crossover_rate`, `mutation_rate`, `tournament_size`, `elite_count`, `seed`.
+- `configs/bee_config_example.json` możliwe pola: `colony_size`, `iterations`, `limit`, `neighborhood_flips`, `seed`.
+
+Program wygeneruje (dla każdego uruchomienia):
+
+- `results/<out>`: CSV z metrykami uruchomień
+- `results/<out>_matrices.json`: macierze przypisań, harmonogramy i overlaps
+- `results/<out>_history.json`: historia najlepszego fitnessu z każdej iteracji/pokolenia
 
 ## Format Danych Wejsciowych (`--graph`)
 
@@ -106,6 +125,38 @@ Plik `*_history.json` zawiera:
 - `runs[].*.history_length`: dlugosc historii dla walidacji
 
 Szczegoly mapowania sa w [docs/VISUALIZATION_HANDOFF.md](docs/VISUALIZATION_HANDOFF.md).
+
+## Import danych OSM (real data importing)
+
+W repo znajduje się prosty skrypt do parsowania danych z Overpass/OSM:
+
+- `overpass_turbo_query.txt` — przykładowe zapytanie Overpass (użyj na https://overpass-turbo.eu/)
+- `real_data_import.py` — skrypt parsujący `road_data.json` (dane Overpass) -> `parsing_results.json` używane jako `--graph` dla `run_experiments.py`.
+
+Uwaga: w repo trafił duży plik `road_data.json` (surowe OSM). Lepiej przechowywać pobrane OSM poza VCS i trzymać jedynie wynikowy `parsing_results.json` albo przechowywać dane na dysku współdzielonym.
+
+Przykładowe użycie:
+```powershell
+# Pobierz/umieść road_data.json w katalogu projektu, następnie:
+python real_data_import.py
+# wygeneruje parsing_results.json
+```
+
+## Wizualizacja wyników
+
+Do tworzenia diagramów z wyników służy `visualize.py`. Skrypt szuka plików `*_matrices.json` w katalogu `results/` i generuje obrazy PNG obok nich.
+
+Uruchomienie:
+```powershell
+python visualize.py
+```
+
+Plik wyjściowy np. `results/real_graph_results_run1_graf.png` zawiera:
+- graf dróg i przypisanych ekip
+- kolejność pracy ekip (liczby przy strzałkach)
+- makespan i informację o wykonalności
+
+Wymagane pakiety: `matplotlib`, `numpy` (powinny być na liście w `requirements.txt`).
 
 ## Dla Wspolpracy w Zespole
 
