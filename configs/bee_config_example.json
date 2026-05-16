@@ -1,0 +1,7 @@
+{
+  "colony_size": 80,
+  "iterations": 180,
+  "limit": 30,
+  "neighborhood_flips": 3,
+  "seed": 7
+}

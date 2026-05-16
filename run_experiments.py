@@ -43,27 +43,55 @@ def run_single_graph(graph_file: str, repetitions: int, iterations: int, out_fil
     for rep in range(repetitions):
         print(f"Running repetition {rep + 1}/{repetitions} for fixed graph...")
 
-        ga_result = solve_ga(
-            instance,
-            GAConfig(
-                population_size=80,
-                generations=iterations,
-                crossover_rate=0.85,
-                mutation_rate=0.03,
-                seed=2000 + rep,
-            ),
-        )
+        # Create GA and Bee configs with defaults; can be overridden by
+        # per-run JSON configuration files passed via command-line args.
+        ga_kwargs = {
+            "population_size": 80,
+            "generations": iterations,
+            "crossover_rate": 0.85,
+            "mutation_rate": 0.03,
+            "tournament_size": 3,
+            "elite_count": 2,
+            "seed": 2000 + rep,
+        }
 
-        bee_result = solve_bee(
-            instance,
-            BeeConfig(
-                colony_size=60,
-                iterations=iterations,
-                limit=30,
-                neighborhood_flips=2,
-                seed=3000 + rep,
-            ),
-        )
+        bee_kwargs = {
+            "colony_size": 60,
+            "iterations": iterations,
+            "limit": 30,
+            "neighborhood_flips": 2,
+            "seed": 3000 + rep,
+        }
+
+        # If config files or inline dicts were provided through args or runs-config,
+        # load and merge them. We accept either a path (str) or an already-loaded
+        # dict on the run_single_graph attributes.
+        if hasattr(run_single_graph, "ga_config_json") and run_single_graph.ga_config_json:
+            try:
+                if isinstance(run_single_graph.ga_config_json, dict):
+                    gj = run_single_graph.ga_config_json
+                else:
+                    gj = json.loads(Path(run_single_graph.ga_config_json).read_text(encoding="utf-8"))
+                for k in list(gj.keys()):
+                    if k in ga_kwargs:
+                        ga_kwargs[k] = gj[k]
+            except Exception:
+                print(f"Warning: could not read GA config {run_single_graph.ga_config_json}")
+
+        if hasattr(run_single_graph, "bee_config_json") and run_single_graph.bee_config_json:
+            try:
+                if isinstance(run_single_graph.bee_config_json, dict):
+                    bj = run_single_graph.bee_config_json
+                else:
+                    bj = json.loads(Path(run_single_graph.bee_config_json).read_text(encoding="utf-8"))
+                for k in list(bj.keys()):
+                    if k in bee_kwargs:
+                        bee_kwargs[k] = bj[k]
+            except Exception:
+                print(f"Warning: could not read Bee config {run_single_graph.bee_config_json}")
+
+        ga_result = solve_ga(instance, GAConfig(**ga_kwargs))
+        bee_result = solve_bee(instance, BeeConfig(**bee_kwargs))
 
         rows.append(
             {
@@ -214,9 +242,55 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--repetitions", type=int, default=10, help="Number of runs for the fixed graph")
     parser.add_argument("--iterations", type=int, default=120, help="Generations/iterations per solver")
     parser.add_argument("--out", type=str, default="benchmark_results.csv", help="Output CSV filename in results/")
+    parser.add_argument("--ga-config", type=str, default="", help="Optional JSON config file for GA parameters (path)")
+    parser.add_argument("--bee-config", type=str, default="", help="Optional JSON config file for Bee parameters (path)")
+    parser.add_argument("--runs-config", type=str, default="", help="Optional JSON file with array of run definitions; each run can override graph/repetitions/iterations/ga_config/bee_config/out")
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = _parse_args()
-    run_single_graph(graph_file=args.graph, repetitions=args.repetitions, iterations=args.iterations, out_file=args.out)
+    # If a runs-config is provided, execute each run sequentially. Each run entry
+    # may contain: graph, repetitions, iterations, out, ga_config, bee_config.
+    if args.runs_config:
+        try:
+            runs = json.loads(Path(args.runs_config).read_text(encoding="utf-8"))
+        except Exception as e:
+            print(f"Could not read runs config {args.runs_config}: {e}")
+            raise
+
+        if isinstance(runs, dict):
+            runs = [runs]
+
+        for idx, rdef in enumerate(runs):
+            graph_file = rdef.get("graph", args.graph)
+            repetitions = int(rdef.get("repetitions", args.repetitions))
+            iterations = int(rdef.get("iterations", args.iterations))
+            # Build output filename: prefer explicit 'out' in run definition, otherwise
+            # append a run index to the CLI-provided out filename.
+            if "out" in rdef:
+                out_file = rdef.get("out")
+            else:
+                base = args.out
+                if base.endswith(".csv"):
+                    out_file = base[:-4] + f"_run{idx+1}.csv"
+                else:
+                    out_file = base + f"_run{idx+1}.csv"
+
+            # Attach GA/Bee configs: can be dict or path string
+            run_single_graph.ga_config_json = rdef.get("ga_config") or args.ga_config
+            run_single_graph.bee_config_json = rdef.get("bee_config") or args.bee_config
+
+            print(f"\n=== Running config {idx+1}/{len(runs)}: graph={graph_file}, reps={repetitions}, iters={iterations} ===")
+            run_single_graph(graph_file=graph_file, repetitions=repetitions, iterations=iterations, out_file=out_file)
+
+        # Clean up attributes
+        run_single_graph.ga_config_json = None
+        run_single_graph.bee_config_json = None
+    else:
+        # Attach optional config file paths to the run function so they are available
+        # when creating solver configs.
+        run_single_graph.ga_config_json = args.ga_config
+        run_single_graph.bee_config_json = args.bee_config
+
+        run_single_graph(graph_file=args.graph, repetitions=args.repetitions, iterations=args.iterations, out_file=args.out)

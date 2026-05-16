@@ -1,0 +1,18 @@
+[
+  {
+    "graph": "parsing_results.json",
+    "repetitions": 1,
+    "iterations": 8,
+    "out": "real_graph_results_run1.csv",
+    "ga_config": { "population_size": 60, "generations": 8, "crossover_rate": 0.85, "mutation_rate": 0.05, "seed": 100 },
+    "bee_config": "configs/bee_config_example.json"
+  },
+  {
+    "graph": "parsing_results.json",
+    "repetitions": 1,
+    "iterations": 20,
+    "out": "real_graph_results_run2.csv",
+    "ga_config": "configs/ga_config_example.json",
+    "bee_config": { "colony_size": 100, "iterations": 20, "limit": 40, "neighborhood_flips": 3, "seed": 200 }
+  }
+]

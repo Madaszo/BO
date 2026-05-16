@@ -1,0 +1,9 @@
+{
+  "population_size": 100,
+  "generations": 200,
+  "crossover_rate": 0.9,
+  "mutation_rate": 0.02,
+  "tournament_size": 5,
+  "elite_count": 4,
+  "seed": 42
+}
