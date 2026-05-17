@@ -1,0 +1,3202 @@
+[
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 100,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 100,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 200,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 200,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 300,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 300,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 400,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 400,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 500,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 500,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 600,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 600,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 700,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 700,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 800,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 800,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 900,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 900,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.05,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 10,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.1,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 30,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.3,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 50,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.3,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 1,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.5,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 4,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.8,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 8,
+      "seed": 200
+    }
+  },
+  {
+    "graph": "graphs/parsing_results.json",
+    "repetitions": 1,
+    "iterations": 100,
+    "out": "results/population/population_0.csv",
+    "ga_config": {
+      "population_size": 1000,
+      "generations": 50,
+      "crossover_rate": 0.95,
+      "mutation_rate": 0.4,
+      "seed": 100
+    },
+    "bee_config": {
+      "colony_size": 1000,
+      "iterations": 50,
+      "limit": 100,
+      "neighborhood_flips": 10,
+      "seed": 200
+    }
+  }
+]

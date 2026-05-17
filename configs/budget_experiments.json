@@ -1,0 +1,622 @@
+[
+ {
+  "graph": "graphs/road_budget_17000",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17000.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17100",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17100.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17200",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17200.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17300",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17300.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17400",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17400.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17500",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17500.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17600",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17600.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17700",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17700.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17800",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17800.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_17900",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_17900.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18000",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18000.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18100",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18100.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18200",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18200.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18300",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18300.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18400",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18400.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18500",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18500.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18600",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18600.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18700",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18700.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18800",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18800.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_18900",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_18900.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19000",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19000.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19100",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19100.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19200",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19200.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19300",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19300.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19400",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19400.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19500",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19500.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19600",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19600.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19700",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19700.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19800",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19800.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_19900",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_19900.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ },
+ {
+  "graph": "graphs/road_budget_20000",
+  "repetitions": 1,
+  "iterations": 100,
+  "out": "results/experiments/budget_20000.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 10,
+   "crossover_rate": 0.85,
+   "mutation_rate": 0.1,
+   "seed": 100
+  },
+  "bee_config": {
+   "colony_size": 150,
+   "iterations": 30,
+   "limit": 50,
+   "neighborhood_flips": 5,
+   "seed": 200
+  }
+ }
+]
