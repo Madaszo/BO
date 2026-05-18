@@ -1,9 +1,9 @@
 [
  {
-  "graph": "graphs/road_budget_17000",
+  "graph": "graphs/road_buget_17000.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17000.csv",
+  "out": "experiments/budget_17000.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -20,10 +20,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17100",
+  "graph": "graphs/road_buget_17100.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17100.csv",
+  "out": "experiments/budget_17100.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -40,10 +40,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17200",
+  "graph": "graphs/road_buget_17200.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17200.csv",
+  "out": "experiments/budget_17200.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -60,10 +60,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17300",
+  "graph": "graphs/road_buget_17300.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17300.csv",
+  "out": "experiments/budget_17300.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -80,10 +80,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17400",
+  "graph": "graphs/road_buget_17400.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17400.csv",
+  "out": "experiments/budget_17400.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -100,10 +100,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17500",
+  "graph": "graphs/road_buget_17500.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17500.csv",
+  "out": "experiments/budget_17500.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -120,10 +120,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17600",
+  "graph": "graphs/road_buget_17600.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17600.csv",
+  "out": "experiments/budget_17600.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -140,10 +140,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17700",
+  "graph": "graphs/road_buget_17700.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17700.csv",
+  "out": "experiments/budget_17700.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -160,10 +160,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17800",
+  "graph": "graphs/road_buget_17800.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17800.csv",
+  "out": "experiments/budget_17800.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -180,10 +180,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_17900",
+  "graph": "graphs/road_buget_17900.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_17900.csv",
+  "out": "experiments/budget_17900.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -200,10 +200,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18000",
+  "graph": "graphs/road_buget_18000.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18000.csv",
+  "out": "experiments/budget_18000.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -220,10 +220,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18100",
+  "graph": "graphs/road_buget_18100.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18100.csv",
+  "out": "experiments/budget_18100.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -240,10 +240,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18200",
+  "graph": "graphs/road_buget_18200.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18200.csv",
+  "out": "experiments/budget_18200.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -260,10 +260,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18300",
+  "graph": "graphs/road_buget_18300.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18300.csv",
+  "out": "experiments/budget_18300.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -280,10 +280,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18400",
+  "graph": "graphs/road_buget_18400.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18400.csv",
+  "out": "experiments/budget_18400.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -300,10 +300,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18500",
+  "graph": "graphs/road_buget_18500.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18500.csv",
+  "out": "experiments/budget_18500.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -320,10 +320,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18600",
+  "graph": "graphs/road_buget_18600.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18600.csv",
+  "out": "experiments/budget_18600.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -340,10 +340,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18700",
+  "graph": "graphs/road_buget_18700.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18700.csv",
+  "out": "experiments/budget_18700.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -360,10 +360,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18800",
+  "graph": "graphs/road_buget_18800.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18800.csv",
+  "out": "experiments/budget_18800.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -380,10 +380,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_18900",
+  "graph": "graphs/road_buget_18900.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_18900.csv",
+  "out": "experiments/budget_18900.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -400,10 +400,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19000",
+  "graph": "graphs/road_buget_19000.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19000.csv",
+  "out": "experiments/budget_19000.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -420,10 +420,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19100",
+  "graph": "graphs/road_buget_19100.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19100.csv",
+  "out": "experiments/budget_19100.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -440,10 +440,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19200",
+  "graph": "graphs/road_buget_19200.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19200.csv",
+  "out": "experiments/budget_19200.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -460,10 +460,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19300",
+  "graph": "graphs/road_buget_19300.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19300.csv",
+  "out": "experiments/budget_19300.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -480,10 +480,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19400",
+  "graph": "graphs/road_buget_19400.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19400.csv",
+  "out": "experiments/budget_19400.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -500,10 +500,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19500",
+  "graph": "graphs/road_buget_19500.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19500.csv",
+  "out": "experiments/budget_19500.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -520,10 +520,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19600",
+  "graph": "graphs/road_buget_19600.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19600.csv",
+  "out": "experiments/budget_19600.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -540,10 +540,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19700",
+  "graph": "graphs/road_buget_19700.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19700.csv",
+  "out": "experiments/budget_19700.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -560,10 +560,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19800",
+  "graph": "graphs/road_buget_19800.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19800.csv",
+  "out": "experiments/budget_19800.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -580,10 +580,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_19900",
+  "graph": "graphs/road_buget_19900.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_19900.csv",
+  "out": "experiments/budget_19900.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,
@@ -600,10 +600,10 @@
   }
  },
  {
-  "graph": "graphs/road_budget_20000",
+  "graph": "graphs/road_buget_20000.json",
   "repetitions": 1,
   "iterations": 100,
-  "out": "results/experiments/budget_20000.csv",
+  "out": "experiments/budget_20000.csv",
   "ga_config": {
    "population_size": 100,
    "generations": 10,

@@ -18,6 +18,10 @@ Thumbs.db
 # Local outputs
 results/*.csv
 results/*.json
+results/experiments/*
+results/mutation/*
+results/population/*
+results/population_budget/*
 !results/.gitkeep
 
 # Logs and temporary files
