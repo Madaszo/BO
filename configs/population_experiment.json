@@ -23,7 +23,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_1.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -43,7 +43,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_2.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -63,7 +63,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_3.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -83,7 +83,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_4.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -103,7 +103,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_5.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -123,7 +123,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_6.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -143,7 +143,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_7.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -163,7 +163,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_8.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -183,7 +183,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_9.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -203,7 +203,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_10.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -223,7 +223,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_11.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -243,7 +243,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_12.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -263,7 +263,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_13.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -283,7 +283,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_14.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -303,7 +303,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_15.csv",
     "ga_config": {
       "population_size": 100,
       "generations": 50,
@@ -323,7 +323,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_16.csv",
     "ga_config": {
       "population_size": 200,
       "generations": 50,
@@ -343,7 +343,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_17.csv",
     "ga_config": {
       "population_size": 200,
       "generations": 50,
@@ -363,7 +363,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_18.csv",
     "ga_config": {
       "population_size": 200,
       "generations": 50,
@@ -383,7 +383,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_19.csv",
     "ga_config": {
       "population_size": 200,
       "generations": 50,
@@ -403,7 +403,7 @@
     "graph": "graphs/parsing_results.json",
     "repetitions": 1,
     "iterations": 100,
-    "out": "population/population_0.csv",
+    "out": "population/population_20.csv",
     "ga_config": {
       "population_size": 200,
       "generations": 50,

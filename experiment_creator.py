@@ -14,7 +14,7 @@ for i in range(100,1001, 100):
             "graph": f"graphs/road_buget_{j}.json",
             "repetitions": 1,
             "iterations": 100,
-            "out": f"results/{experiment_name}/{experiment_name}_{n}.csv",
+            "out": f"{experiment_name}/{experiment_name}_{n}.csv",
             "ga_config": {
             "population_size": i,
             "generations": 50,
