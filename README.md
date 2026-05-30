@@ -12,15 +12,19 @@ a nie jednorazowo przy pierwszym uzyciu.
 
 W modelu dziala harmonogramowanie pracy ekip i twarda kara za nakladanie sie czasu tej samej ekipy (jedna ekipa nie moze byc jednoczesnie w dwoch miejscach).
 
+Zalecany jeden punkt wejscia do calego workflow to [run_pipeline.py](run_pipeline.py), a szczegolowa dokumentacja techniczna jest w [docs/TECHNICAL_DOCUMENTATION.md](docs/TECHNICAL_DOCUMENTATION.md).
+
 ## Co jest w repo
 
 - [src/model.py](src/model.py): definicja instancji problemu, ocena, harmonogram i kary
 - [src/ga.py](src/ga.py): solver GA
 - [src/bee.py](src/bee.py): solver Bee Colony
 - [run_experiments.py](run_experiments.py): uruchamianie eksperymentu dla jednego zadanego grafu
+- [run_pipeline.py](run_pipeline.py): jeden skrypt uruchamiajacy import danych, eksperymenty i wizualizacje
 - [input_graph.json](input_graph.json): przykladowe dane wejsciowe
 - [results/.gitkeep](results/.gitkeep): katalog wynikow lokalnych (pliki wynikowe sa ignorowane przez git)
 - [docs/VISUALIZATION_HANDOFF.md](docs/VISUALIZATION_HANDOFF.md): przekazanie danych dla zespolu wizualizacji
+- [docs/TECHNICAL_DOCUMENTATION.md](docs/TECHNICAL_DOCUMENTATION.md): pelna dokumentacja techniczna repozytorium
 
 ## Wymagania
 
