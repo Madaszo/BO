@@ -22,6 +22,11 @@ results/experiments/*
 results/mutation/*
 results/population/*
 results/population_budget/*
+results/elite_count/*
+results/generations/*
+results/population_mutation_large/*
+results/population_solo/*
+results/tournament_size
 !results/.gitkeep
 
 # Logs and temporary files

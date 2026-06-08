@@ -1,382 +1,344 @@
 [
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_0.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.05,
-      "seed": 100
+      "mutation_rate": 0.05
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 1,
-      "seed": 200
+      "neighborhood_flips": 1
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_1.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.1,
-      "seed": 100
+      "mutation_rate": 0.1
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 2,
-      "seed": 200
+      "neighborhood_flips": 2
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_2.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.15,
-      "seed": 100
+      "mutation_rate": 0.15
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 3,
-      "seed": 200
+      "neighborhood_flips": 3
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_3.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.2,
-      "seed": 100
+      "mutation_rate": 0.2
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 4,
-      "seed": 200
+      "neighborhood_flips": 4
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_4.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.25,
-      "seed": 100
+      "mutation_rate": 0.25
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 5,
-      "seed": 200
+      "neighborhood_flips": 5
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_5.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.3,
-      "seed": 100
+      "mutation_rate": 0.3
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 6,
-      "seed": 200
+      "neighborhood_flips": 6
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_6.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.35,
-      "seed": 100
+      "mutation_rate": 0.35
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 7,
-      "seed": 200
+      "neighborhood_flips": 7
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_7.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.4,
-      "seed": 100
+      "mutation_rate": 0.4
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 8,
-      "seed": 200
+      "neighborhood_flips": 8
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_8.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.45,
-      "seed": 100
+      "mutation_rate": 0.45
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 9,
-      "seed": 200
+      "neighborhood_flips": 9
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_9.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.5,
-      "seed": 100
+      "mutation_rate": 0.5
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 10,
-      "seed": 200
+      "neighborhood_flips": 10
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_10.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.55,
-      "seed": 100
+      "mutation_rate": 0.55
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 11,
-      "seed": 200
+      "neighborhood_flips": 11
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_11.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.6,
-      "seed": 100
+      "mutation_rate": 0.6
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 12,
-      "seed": 200
+      "neighborhood_flips": 12
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_12.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.65,
-      "seed": 100
+      "mutation_rate": 0.65
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 13,
-      "seed": 200
+      "neighborhood_flips": 13
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_13.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.7,
-      "seed": 100
+      "mutation_rate": 0.7
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 14,
-      "seed": 200
+      "neighborhood_flips": 14
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_14.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.75,
-      "seed": 100
+      "mutation_rate": 0.75
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 15,
-      "seed": 200
+      "neighborhood_flips": 15
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_15.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.8,
-      "seed": 100
+      "mutation_rate": 0.8
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 16,
-      "seed": 200
+      "neighborhood_flips": 16
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_16.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.85,
-      "seed": 100
+      "mutation_rate": 0.85
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 17,
-      "seed": 200
+      "neighborhood_flips": 17
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_17.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.9,
-      "seed": 100
+      "mutation_rate": 0.9
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 18,
-      "seed": 200
+      "neighborhood_flips": 18
     }
   },
   {
     "graph": "graphs/parsing_results.json",
-    "repetitions": 1,
+    "repetitions": 5,
     "iterations": 100,
     "out": "mutation/mutation_18.csv",
     "ga_config": {
       "population_size": 60,
       "generations": 50,
       "crossover_rate": 0.85,
-      "mutation_rate": 0.95,
-      "seed": 100
+      "mutation_rate": 0.95
     },
     "bee_config": {
       "colony_size": 100,
       "iterations": 50,
       "limit": 60,
-      "neighborhood_flips": 19,
-      "seed": 200
+      "neighborhood_flips": 19
     }
   }
 ]

@@ -156,7 +156,7 @@ def main() -> None:
         run_command(command, REPO_ROOT)
 
     if not args.skip_visualize:
-        run_command([sys.executable, str(REPO_ROOT / "visualize.py")], REPO_ROOT)
+        run_command([sys.executable, str(REPO_ROOT / "visualize_graph.py")], REPO_ROOT)
 
 
 if __name__ == "__main__":

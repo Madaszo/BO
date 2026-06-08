@@ -14,7 +14,7 @@ class BeeConfig:
     iterations: int = 180
     limit: int = 30
     neighborhood_flips: int = 2
-    seed: int = 7
+    seed: int = random.randint(0, 1000000)
 
 
 @dataclass

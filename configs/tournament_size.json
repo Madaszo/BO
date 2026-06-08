@@ -1,0 +1,1902 @@
+[
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_0.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 0
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_1.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 1
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_2.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 2
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_3.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 3
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_4.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 4
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_5.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 5
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_6.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 6
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_7.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 7
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_8.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 8
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_9.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 9
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_10.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 10
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_11.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 11
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_12.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 12
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_13.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 13
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_14.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 14
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_15.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 15
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_16.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 16
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_17.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 17
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_18.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 18
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_19.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 19
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_20.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 20
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_21.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 21
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_22.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 22
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_23.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 23
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_24.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 24
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_25.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 25
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_26.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 26
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_27.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 27
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_28.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 28
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_29.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 29
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_30.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 30
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_31.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 31
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_32.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 32
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_33.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 33
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_34.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 34
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_35.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 35
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_36.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 36
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_37.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 37
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_38.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 38
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_39.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 39
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_40.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 40
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_41.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 41
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_42.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 42
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_43.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 43
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_44.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 44
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_45.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 45
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_46.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 46
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_47.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 47
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_48.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 48
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_49.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 49
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_50.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 50
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_51.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 51
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_52.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 52
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_53.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 53
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_54.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 54
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_55.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 55
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_56.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 56
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_57.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 57
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_58.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 58
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_59.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 59
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_60.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 60
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_61.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 61
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_62.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 62
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_63.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 63
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_64.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 64
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_65.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 65
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_66.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 66
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_67.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 67
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_68.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 68
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_69.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 69
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_70.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 70
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_71.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 71
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_72.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 72
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_73.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 73
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_74.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 74
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_75.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 75
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_76.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 76
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_77.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 77
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_78.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 78
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_79.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 79
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_80.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 80
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_81.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 81
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_82.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 82
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_83.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 83
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_84.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 84
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_85.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 85
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_86.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 86
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_87.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 87
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_88.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 88
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_89.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 89
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_90.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 90
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_91.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 91
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_92.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 92
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_93.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 93
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_94.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 94
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_95.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 95
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_96.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 96
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_97.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 97
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_98.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 98
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ },
+ {
+  "graph": "graphs/parsing_results.json",
+  "repetitions": 5,
+  "iterations": 100,
+  "out": "tournament_size/tournament_size_99.csv",
+  "ga_config": {
+   "population_size": 100,
+   "generations": 50,
+   "crossover_rate": 0.5,
+   "mutation_rate": 0.9,
+   "tournament_size": 99
+  },
+  "bee_config": {
+   "colony_size": 1,
+   "iterations": 1,
+   "limit": 1,
+   "neighborhood_flips": 1
+  }
+ }
+]
