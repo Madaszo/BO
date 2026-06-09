@@ -49,18 +49,25 @@ from math import log2
 #fname_regex = re.compile(r"^elite_count_(\d+).csv$")
 
 # population_solo
-#changing_variables_ga = ["population_size"]
-#changing_variables_bee = ["colony_size"]
-#config_file = "configs\\population_solo_experiment.json"
-#results_folder = "results\\population_solo"
-#fname_regex = re.compile(r"^population_solo_(\d+).csv$")
+changing_variables_ga = ["population_size"]
+changing_variables_bee = ["colony_size"]
+config_file = "configs\\population_solo_experiment.json"
+results_folder = "results\\population_solo"
+fname_regex = re.compile(r"^population_solo_(\d+).csv$")
 
 # generations
-changing_variables_ga = ["generations"]
-changing_variables_bee = []
-config_file = "configs\\generations_experiment.json"
-results_folder = "results\\generations"
-fname_regex = re.compile(r"^generations_(\d+).csv$")
+#changing_variables_ga = ["generations"]
+#changing_variables_bee = []
+#config_file = "configs\\generations_experiment.json"
+#results_folder = "results\\generations"
+#fname_regex = re.compile(r"^generations_(\d+).csv$")
+
+# tournament_size
+#changing_variables_ga = ["tournament_size"]
+#changing_variables_bee = []
+#config_file = "configs\\tournament_size_experiment.json"
+#results_folder = "results\\tournament_size"
+#fname_regex = re.compile(r"^tournament_size_(\d+).csv$")
 
 
 budget_regex = re.compile(r"road_buget_(\d+).json")
