@@ -164,11 +164,10 @@ def run_single_graph(graph_file: str, repetitions: int, iterations: int, out_fil
             }
         )
 
-    out_dir = Path("results")
-    out_dir.mkdir(exist_ok=True)
-    out_csv = out_dir / out_file
-    out_matrices = out_dir / out_file.replace(".csv", "_matrices.json")
-    out_history = out_dir / out_file.replace(".csv", "_history.json")
+    out_csv = Path("results") / out_file
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
+    out_matrices = out_csv.with_name(out_csv.stem + "_matrices.json")
+    out_history = out_csv.with_name(out_csv.stem + "_history.json")
 
     with out_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(

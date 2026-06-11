@@ -70,14 +70,11 @@ def draw_assignment_graph(ax: plt.Axes, matrix: np.ndarray, crew_labels: list[st
     ax.legend(handles=handles, loc="lower center", bbox_to_anchor=(0.5, -0.15), ncol=min(3, matrix.shape[0]), fontsize=8, frameon=False)
 
 
-def main() -> None:
-    path = Path("results") / "results_matrices.json"
-    if not path.exists():
-        raise SystemExit(f"Nie znaleziono pliku: {path}")
-
+def render(path: Path) -> None:
     crew_labels, edge_ids, matrices = load_matrix_data(path)
     if not matrices:
-        raise SystemExit("Brak danych macierzy w results_matrices.json")
+        print(f"Pominięto (brak macierzy): {path}")
+        return
 
     fig, axes = plt.subplots(1, len(matrices), figsize=(18, 7), constrained_layout=True)
     if len(matrices) == 1:
@@ -87,9 +84,21 @@ def main() -> None:
         draw_assignment_graph(ax, np.array(matrix, dtype=int), crew_labels, edge_ids, f"{solver_name} - przydziały ekip")
 
     fig.suptitle("Graf połączeń ekip z drogami", fontsize=18, fontweight="bold")
-    out_path = Path("results") / "graph_assignments.png"
+
+    stem = path.stem.replace("_matrices", "")
+    out_path = path.parent / f"{stem}_graph.png"
     fig.savefig(out_path, dpi=200, facecolor=BG, bbox_inches="tight")
     print(f"Zapisano: {out_path}")
+    plt.close(fig)
+
+
+def main() -> None:
+    candidates = sorted(Path("results").rglob("*_matrices.json"))
+    if not candidates:
+        raise SystemExit("Nie znaleziono pliku *_matrices.json w katalogu results/")
+    for path in candidates:
+        print(f"Wczytuję: {path}")
+        render(path)
     plt.show()
 
 

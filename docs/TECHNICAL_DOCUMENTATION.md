@@ -18,7 +18,7 @@ flowchart LR
     C --> D[run_experiments.py]
     D --> E[results/*_matrices.json]
     D --> F[results/*_history.json]
-    E --> G[visualize.py]
+    E --> G[visualize_graph.py]
     G --> H[results/*_graf.png]
 ```
 
@@ -37,7 +37,7 @@ flowchart LR
 | `src/bee.py` | implementacja algorytmu pszczelego |
 | `run_experiments.py` | uruchamianie eksperymentów dla jednego grafu lub wielu konfiguracji |
 | `run_pipeline.py` | jedno polecenie uruchamiające import, eksperymenty i wizualizację |
-| `visualize.py` | budowa rysunków z plików `*_matrices.json` |
+| `visualize_graph.py` | budowa rysunków z plików `*_matrices.json` |
 | `real_data_import.py` | historyczny skrypt importu danych OSM; logika importu została odwzorowana w `run_pipeline.py` |
 
 ## Wejścia i wyjścia
@@ -54,7 +54,7 @@ flowchart LR
 - `results/<out>.csv` - metryki końcowe,
 - `results/<out>_matrices.json` - najlepsze rozwiązania, harmonogramy i overlap,
 - `results/<out>_history.json` - przebieg fitnessu w kolejnych iteracjach/pokoleniach,
-- `results/<out>_graf.png` - wizualizacja wygenerowana przez `visualize.py`.
+- `results/<out>_graf.png` - wizualizacja wygenerowana przez `visualize_graph.py`.
 
 ## Konfiguracja eksperymentów
 
@@ -141,12 +141,12 @@ Model uwzględnia:
 
 ## Wizualizacja
 
-`visualize.py` czyta wszystkie pliki `*_matrices.json` z katalogu `results/` i generuje obraz PNG dla każdego zestawu wyników.
+`visualize_graph.py` czyta wszystkie pliki `*_matrices.json` z katalogu `results/` i generuje obraz PNG dla każdego zestawu wyników.
 
 Uruchomienie:
 
 ```powershell
-python visualize.py
+python visualize_graph.py
 ```
 
 ## Uwagi praktyczne

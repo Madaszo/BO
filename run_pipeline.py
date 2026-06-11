@@ -4,7 +4,7 @@
 Stages:
 1. Import road data from `road_data.json` into `parsing_results.json`.
 2. Run experiments with `run_experiments.py`.
-3. Render visualizations with `visualize.py`.
+3. Render visualizations with `visualize_graph.py`.
 """
 
 from __future__ import annotations

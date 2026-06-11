@@ -148,11 +148,11 @@ python real_data_import.py
 
 ## Wizualizacja wyników
 
-Do tworzenia diagramów z wyników służy `visualize.py`. Skrypt szuka plików `*_matrices.json` w katalogu `results/` i generuje obrazy PNG obok nich.
+Do tworzenia diagramów z wyników służy `visualize_graph.py`. Skrypt szuka plików `*_matrices.json` w katalogu `results/` i generuje obrazy PNG obok nich.
 
 Uruchomienie:
 ```powershell
-python visualize.py
+python visualize_graph.py
 ```
 
 Plik wyjściowy np. `results/real_graph_results_run1_graf.png` zawiera:
