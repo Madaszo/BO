@@ -24,7 +24,7 @@ class GAConfig:
     mutation_rate: float = 0.03
     tournament_size: int = 3
     elite_count: int = 2
-    seed: int = 42
+    seed: int = random.randint(0, 1000000)
 
 
 @dataclass

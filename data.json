@@ -1,0 +1,4701 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-01T11:57:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 21896370,
+  "bounds": {
+    "minlat": 50.0552932,
+    "minlon": 19.9275792,
+    "maxlat": 50.0561177,
+    "maxlon": 19.9288098
+  },
+  "nodes": [
+    2419720327,
+    6171090603,
+    13005061517,
+    13005061515,
+    6137476594,
+    6171058646,
+    30372083,
+    13005061516,
+    5726056947,
+    6140684205,
+    752177519,
+    6140684204,
+    6140677583,
+    6137489250,
+    207440039
+  ],
+  "geometry": [
+    { "lat": 50.0561177, "lon": 19.9288098 },
+    { "lat": 50.0560827, "lon": 19.9287704 },
+    { "lat": 50.0558756, "lon": 19.9285380 },
+    { "lat": 50.0558004, "lon": 19.9284243 },
+    { "lat": 50.0557805, "lon": 19.9283942 },
+    { "lat": 50.0557711, "lon": 19.9283798 },
+    { "lat": 50.0557602, "lon": 19.9283630 },
+    { "lat": 50.0556210, "lon": 19.9281488 },
+    { "lat": 50.0554632, "lon": 19.9278849 },
+    { "lat": 50.0554473, "lon": 19.9278554 },
+    { "lat": 50.0554285, "lon": 19.9278203 },
+    { "lat": 50.0554160, "lon": 19.9277971 },
+    { "lat": 50.0554007, "lon": 19.9277686 },
+    { "lat": 50.0553878, "lon": 19.9277448 },
+    { "lat": 50.0552932, "lon": 19.9275792 }
+  ],
+  "tags": {
+    "check_date": "2024-01-28",
+    "destination:lanes": "Mysłowice;Katowice;Rzeszów;Chyżne|Warszawa",
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes": "through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 23257774,
+  "bounds": {
+    "minlat": 50.0532424,
+    "minlon": 19.9195114,
+    "maxlat": 50.0545623,
+    "maxlon": 19.9212798
+  },
+  "nodes": [
+    251693069,
+    10285212305,
+    13372246557,
+    251693070,
+    251693071,
+    5160456179,
+    1919370793,
+    3113217571,
+    251693006
+  ],
+  "geometry": [
+    { "lat": 50.0532424, "lon": 19.9212798 },
+    { "lat": 50.0532518, "lon": 19.9212642 },
+    { "lat": 50.0533012, "lon": 19.9211923 },
+    { "lat": 50.0533272, "lon": 19.9211582 },
+    { "lat": 50.0537314, "lon": 19.9205937 },
+    { "lat": 50.0541873, "lon": 19.9199794 },
+    { "lat": 50.0542356, "lon": 19.9199143 },
+    { "lat": 50.0545063, "lon": 19.9195805 },
+    { "lat": 50.0545623, "lon": 19.9195114 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Bolesława Komorowskiego",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23257792,
+  "bounds": {
+    "minlat": 50.0580309,
+    "minlon": 19.9252272,
+    "maxlat": 50.0581534,
+    "maxlon": 19.9256441
+  },
+  "nodes": [
+    2499424236,
+    2618223395,
+    207439167
+  ],
+  "geometry": [
+    { "lat": 50.0580309, "lon": 19.9252272 },
+    { "lat": 50.0581051, "lon": 19.9254706 },
+    { "lat": 50.0581534, "lon": 19.9256441 }
+  ],
+  "tags": {
+    "access:lanes": "yes|no|yes",
+    "bicycle:lanes": "yes|designated|yes",
+    "cycleway:right": "lane",
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rotmistrza Zbigniewa Dunin-Wąsowicza",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23257803,
+  "bounds": {
+    "minlat": 50.0560126,
+    "minlon": 19.9240127,
+    "maxlat": 50.0560367,
+    "maxlon": 19.9240361
+  },
+  "nodes": [
+    251693213,
+    3776760941
+  ],
+  "geometry": [
+    { "lat": 50.0560126, "lon": 19.9240361 },
+    { "lat": 50.0560367, "lon": 19.9240127 }
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Włóczków",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 23257809,
+  "bounds": {
+    "minlat": 50.0549499,
+    "minlon": 19.9213895,
+    "maxlat": 50.0552504,
+    "maxlon": 19.9221170
+  },
+  "nodes": [
+    251693234,
+    8505249355,
+    9294720069,
+    8505249356
+  ],
+  "geometry": [
+    { "lat": 50.0549499, "lon": 19.9213895 },
+    { "lat": 50.0549754, "lon": 19.9214518 },
+    { "lat": 50.0550573, "lon": 19.9216500 },
+    { "lat": 50.0552504, "lon": 19.9221170 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Michała Stachowicza",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "7"
+  }
+},
+{
+  "type": "way",
+  "id": 23257812,
+  "bounds": {
+    "minlat": 50.0563945,
+    "minlon": 19.9191453,
+    "maxlat": 50.0570807,
+    "maxlon": 19.9197110
+  },
+  "nodes": [
+    278242820,
+    251693262,
+    12198667241,
+    251693263,
+    7791040725,
+    251693282
+  ],
+  "geometry": [
+    { "lat": 50.0570807, "lon": 19.9191453 },
+    { "lat": 50.0568607, "lon": 19.9192588 },
+    { "lat": 50.0567955, "lon": 19.9193017 },
+    { "lat": 50.0567204, "lon": 19.9193639 },
+    { "lat": 50.0564294, "lon": 19.9196697 },
+    { "lat": 50.0563945, "lon": 19.9197110 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Filarecka",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 24731528,
+  "bounds": {
+    "minlat": 50.0561177,
+    "minlon": 19.9274812,
+    "maxlat": 50.0597833,
+    "maxlon": 19.9288098
+  },
+  "nodes": [
+    268800779,
+    10285212302,
+    3037977039,
+    268800782,
+    268800780,
+    2557776817,
+    268800781,
+    2557776802,
+    4187583961,
+    273761469,
+    3531321659,
+    273761462,
+    3531321646,
+    269347482,
+    11955131547,
+    2646091022,
+    2419720327
+  ],
+  "geometry": [
+    { "lat": 50.0597833, "lon": 19.9274812 },
+    { "lat": 50.0597724, "lon": 19.9274884 },
+    { "lat": 50.0597239, "lon": 19.9275206 },
+    { "lat": 50.0595919, "lon": 19.9276010 },
+    { "lat": 50.0589393, "lon": 19.9280430 },
+    { "lat": 50.0586575, "lon": 19.9282354 },
+    { "lat": 50.0586004, "lon": 19.9282744 },
+    { "lat": 50.0585548, "lon": 19.9282948 },
+    { "lat": 50.0583745, "lon": 19.9283523 },
+    { "lat": 50.0583213, "lon": 19.9283645 },
+    { "lat": 50.0580096, "lon": 19.9284227 },
+    { "lat": 50.0570174, "lon": 19.9285990 },
+    { "lat": 50.0567510, "lon": 19.9286498 },
+    { "lat": 50.0566336, "lon": 19.9286786 },
+    { "lat": 50.0565803, "lon": 19.9286914 },
+    { "lat": 50.0561778, "lon": 19.9287876 },
+    { "lat": 50.0561177, "lon": 19.9288098 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Retoryka",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q9365901",
+    "wikipedia": "pl:Ulica Retoryka w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 24790075,
+  "bounds": {
+    "minlat": 50.0566105,
+    "minlon": 19.9286786,
+    "maxlat": 50.0566414,
+    "maxlon": 19.9288969
+  },
+  "nodes": [
+    7315238299,
+    10984607872,
+    10984607871,
+    2767108823,
+    269347482
+  ],
+  "geometry": [
+    { "lat": 50.0566105, "lon": 19.9288969 },
+    { "lat": 50.0566374, "lon": 19.9288061 },
+    { "lat": 50.0566414, "lon": 19.9287722 },
+    { "lat": 50.0566405, "lon": 19.9287416 },
+    { "lat": 50.0566336, "lon": 19.9286786 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "noname": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25117111,
+  "bounds": {
+    "minlat": 50.0586270,
+    "minlon": 19.9248483,
+    "maxlat": 50.0592957,
+    "maxlon": 19.9253108
+  },
+  "nodes": [
+    226214987,
+    752177487,
+    815569096,
+    6500875278
+  ],
+  "geometry": [
+    { "lat": 50.0592957, "lon": 19.9248483 },
+    { "lat": 50.0591644, "lon": 19.9249324 },
+    { "lat": 50.0587250, "lon": 19.9252421 },
+    { "lat": 50.0586270, "lon": 19.9253108 }
+  ],
+  "tags": {
+    "bus:lanes": "||designated",
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "intermediate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K",
+    "vehicle:lanes": "yes|yes|no"
+  }
+},
+{
+  "type": "way",
+  "id": 25130416,
+  "bounds": {
+    "minlat": 50.0588249,
+    "minlon": 19.9293697,
+    "maxlat": 50.0593899,
+    "maxlon": 19.9327286
+  },
+  "nodes": [
+    2920531336,
+    4187583966,
+    279035504,
+    5626928262,
+    13046465346,
+    13564114408
+  ],
+  "geometry": [
+    { "lat": 50.0588249, "lon": 19.9293697 },
+    { "lat": 50.0588693, "lon": 19.9296345 },
+    { "lat": 50.0588856, "lon": 19.9298461 },
+    { "lat": 50.0591563, "lon": 19.9313926 },
+    { "lat": 50.0593052, "lon": 19.9322447 },
+    { "lat": 50.0593899, "lon": 19.9327286 }
+  ],
+  "tags": {
+    "cycleway:left": "shared_lane",
+    "cycleway:left:lane": "pictogram",
+    "cycleway:left:oneway": "-1",
+    "cycleway:right": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Smoleńsk",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q9365953",
+    "wikipedia": "pl:Ulica Smoleńsk w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 25130418,
+  "bounds": {
+    "minlat": 50.0585302,
+    "minlon": 19.9293697,
+    "maxlat": 50.0588249,
+    "maxlon": 19.9294567
+  },
+  "nodes": [
+    2920531336,
+    8128853206,
+    279035499
+  ],
+  "geometry": [
+    { "lat": 50.0588249, "lon": 19.9293697 },
+    { "lat": 50.0587796, "lon": 19.9293837 },
+    { "lat": 50.0585302, "lon": 19.9294567 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Felicjanek",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q119694169"
+  }
+},
+{
+  "type": "way",
+  "id": 25130419,
+  "bounds": {
+    "minlat": 50.0576389,
+    "minlon": 19.9303672,
+    "maxlat": 50.0576970,
+    "maxlon": 19.9307172
+  },
+  "nodes": [
+    30372085,
+    10285212287,
+    10203052047,
+    8128884823,
+    7726812130
+  ],
+  "geometry": [
+    { "lat": 50.0576389, "lon": 19.9307172 },
+    { "lat": 50.0576421, "lon": 19.9306979 },
+    { "lat": 50.0576587, "lon": 19.9305969 },
+    { "lat": 50.0576776, "lon": 19.9304826 },
+    { "lat": 50.0576970, "lon": 19.9303672 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Mała",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "parking:condition:both": "no_stopping",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25130420,
+  "bounds": {
+    "minlat": 50.0570153,
+    "minlon": 19.9273662,
+    "maxlat": 50.0573536,
+    "maxlon": 19.9285990
+  },
+  "nodes": [
+    273761462,
+    4187583954,
+    5874070029,
+    3531321657,
+    273761466
+  ],
+  "geometry": [
+    { "lat": 50.0570174, "lon": 19.9285990 },
+    { "lat": 50.0570153, "lon": 19.9285129 },
+    { "lat": 50.0571794, "lon": 19.9279568 },
+    { "lat": 50.0571842, "lon": 19.9279408 },
+    { "lat": 50.0573536, "lon": 19.9273662 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Wygoda",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25130421,
+  "bounds": {
+    "minlat": 50.0565444,
+    "minlon": 19.9279544,
+    "maxlat": 50.0566336,
+    "maxlon": 19.9286786
+  },
+  "nodes": [
+    269347482,
+    3531321641,
+    273761488,
+    12188164777,
+    2767108822,
+    2767108820,
+    273761472
+  ],
+  "geometry": [
+    { "lat": 50.0566336, "lon": 19.9286786 },
+    { "lat": 50.0566207, "lon": 19.9285747 },
+    { "lat": 50.0565994, "lon": 19.9284124 },
+    { "lat": 50.0565866, "lon": 19.9282910 },
+    { "lat": 50.0565758, "lon": 19.9281893 },
+    { "lat": 50.0565566, "lon": 19.9280229 },
+    { "lat": 50.0565444, "lon": 19.9279544 }
+  ],
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "maxspeed": "20",
+    "name": "Kazimierza Morawskiego",
+    "source:maxspeed": "PL:living_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25130423,
+  "bounds": {
+    "minlat": 50.0558207,
+    "minlon": 19.9256879,
+    "maxlat": 50.0559890,
+    "maxlon": 19.9264940
+  },
+  "nodes": [
+    4157484650,
+    13040175028,
+    13040175038,
+    4157484640,
+    273761484
+  ],
+  "geometry": [
+    { "lat": 50.0559890, "lon": 19.9264940 },
+    { "lat": 50.0559562, "lon": 19.9263362 },
+    { "lat": 50.0558933, "lon": 19.9260336 },
+    { "lat": 50.0558423, "lon": 19.9257885 },
+    { "lat": 50.0558207, "lon": 19.9256879 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Kazimierza Morawskiego",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25130425,
+  "bounds": {
+    "minlat": 50.0561994,
+    "minlon": 19.9284124,
+    "maxlat": 50.0565994,
+    "maxlon": 19.9284974
+  },
+  "nodes": [
+    273761494,
+    273761499,
+    273761488
+  ],
+  "geometry": [
+    { "lat": 50.0561994, "lon": 19.9284136 },
+    { "lat": 50.0562598, "lon": 19.9284974 },
+    { "lat": 50.0565994, "lon": 19.9284124 }
+  ],
+  "tags": {
+    "highway": "living_street",
+    "maxspeed": "20",
+    "source:maxspeed": "PL:living_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25130784,
+  "bounds": {
+    "minlat": 50.0579629,
+    "minlon": 19.9286868,
+    "maxlat": 50.0580485,
+    "maxlon": 19.9295413
+  },
+  "nodes": [
+    2920531334,
+    8622303242,
+    7315238295,
+    273769850
+  ],
+  "geometry": [
+    { "lat": 50.0580485, "lon": 19.9295413 },
+    { "lat": 50.0580405, "lon": 19.9294618 },
+    { "lat": 50.0579706, "lon": 19.9287641 },
+    { "lat": 50.0579629, "lon": 19.9286868 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Emila Zegadłowicza",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q124789554",
+    "wikipedia": "pl:Ulica Emila Zegadłowicza w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 25130785,
+  "bounds": {
+    "minlat": 50.0567058,
+    "minlon": 19.9313040,
+    "maxlat": 50.0573219,
+    "maxlon": 19.9324751
+  },
+  "nodes": [
+    2403443571,
+    2991218487,
+    273769857,
+    3270638023
+  ],
+  "geometry": [
+    { "lat": 50.0567058, "lon": 19.9324751 },
+    { "lat": 50.0567436, "lon": 19.9323795 },
+    { "lat": 50.0571490, "lon": 19.9316366 },
+    { "lat": 50.0573219, "lon": 19.9313040 }
+  ],
+  "tags": {
+    "bicycle": "yes",
+    "goods": "delivery",
+    "highway": "living_street",
+    "lit": "yes",
+    "maxspeed": "20",
+    "motorcar": "private",
+    "name": "Tarłowska",
+    "source:maxspeed": "PL:living_street",
+    "surface": "sett",
+    "taxi": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 25131942,
+  "bounds": {
+    "minlat": 50.0567761,
+    "minlon": 19.9264610,
+    "maxlat": 50.0569355,
+    "maxlon": 19.9267714
+  },
+  "nodes": [
+    273798747,
+    11385132289,
+    11385132288,
+    11385132287,
+    273798749,
+    1676119728,
+    273798788,
+    11089060355,
+    1676119598,
+    273798824,
+    273798826
+  ],
+  "geometry": [
+    { "lat": 50.0568888, "lon": 19.9267714 },
+    { "lat": 50.0569137, "lon": 19.9267295 },
+    { "lat": 50.0569276, "lon": 19.9266889 },
+    { "lat": 50.0569349, "lon": 19.9266493 },
+    { "lat": 50.0569355, "lon": 19.9266002 },
+    { "lat": 50.0569295, "lon": 19.9265615 },
+    { "lat": 50.0569160, "lon": 19.9265248 },
+    { "lat": 50.0568930, "lon": 19.9264930 },
+    { "lat": 50.0568692, "lon": 19.9264730 },
+    { "lat": 50.0568468, "lon": 19.9264643 },
+    { "lat": 50.0567761, "lon": 19.9264610 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "foot": "no",
+    "highway": "primary_link",
+    "lane_markings": "no",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "short_name": "Aleje",
+    "sidewalk": "no",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25131943,
+  "bounds": {
+    "minlat": 50.0575482,
+    "minlon": 19.9259730,
+    "maxlat": 50.0577001,
+    "maxlon": 19.9263671
+  },
+  "nodes": [
+    273798828,
+    273798833,
+    12002163449,
+    273798834,
+    273798837,
+    12002163447,
+    273798843,
+    12002163448,
+    273798845
+  ],
+  "geometry": [
+    { "lat": 50.0576031, "lon": 19.9259730 },
+    { "lat": 50.0575655, "lon": 19.9260863 },
+    { "lat": 50.0575531, "lon": 19.9261495 },
+    { "lat": 50.0575482, "lon": 19.9262122 },
+    { "lat": 50.0575538, "lon": 19.9262548 },
+    { "lat": 50.0575682, "lon": 19.9262937 },
+    { "lat": 50.0575944, "lon": 19.9263294 },
+    { "lat": 50.0576272, "lon": 19.9263508 },
+    { "lat": 50.0577001, "lon": 19.9263671 }
+  ],
+  "tags": {
+    "cycleway:right": "no",
+    "foot": "no",
+    "highway": "primary_link",
+    "lanes": "2",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "short_name": "Aleje",
+    "sidewalk": "no",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25530766,
+  "bounds": {
+    "minlat": 50.0538841,
+    "minlon": 19.9232858,
+    "maxlat": 50.0541805,
+    "maxlon": 19.9235550
+  },
+  "nodes": [
+    251693131,
+    8505249357,
+    7685117681,
+    8505249320,
+    1655086493
+  ],
+  "geometry": [
+    { "lat": 50.0538841, "lon": 19.9235550 },
+    { "lat": 50.0538956, "lon": 19.9235430 },
+    { "lat": 50.0539668, "lon": 19.9234682 },
+    { "lat": 50.0540737, "lon": 19.9233464 },
+    { "lat": 50.0541805, "lon": 19.9232858 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Marcina Borelowskiego-Lelewela",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25530991,
+  "bounds": {
+    "minlat": 50.0572299,
+    "minlon": 19.9226467,
+    "maxlat": 50.0583070,
+    "maxlon": 19.9230333
+  },
+  "nodes": [
+    251693126,
+    10632874168,
+    2618223348,
+    12331331174,
+    2618223366,
+    2618223393,
+    1693481290
+  ],
+  "geometry": [
+    { "lat": 50.0572299, "lon": 19.9230333 },
+    { "lat": 50.0572778, "lon": 19.9229998 },
+    { "lat": 50.0573506, "lon": 19.9229578 },
+    { "lat": 50.0574147, "lon": 19.9229228 },
+    { "lat": 50.0575489, "lon": 19.9228777 },
+    { "lat": 50.0580769, "lon": 19.9227225 },
+    { "lat": 50.0583070, "lon": 19.9226467 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefa Kałuży",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25530992,
+  "bounds": {
+    "minlat": 50.0550278,
+    "minlon": 19.9204872,
+    "maxlat": 50.0552563,
+    "maxlon": 19.9209885
+  },
+  "nodes": [
+    251693266,
+    3113218701,
+    12777749047,
+    11372293823
+  ],
+  "geometry": [
+    { "lat": 50.0552563, "lon": 19.9209885 },
+    { "lat": 50.0552104, "lon": 19.9208879 },
+    { "lat": 50.0551205, "lon": 19.9206906 },
+    { "lat": 50.0550278, "lon": 19.9204872 }
+  ],
+  "tags": {
+    "check_date": "2024-04-17",
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Senatorska",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25530993,
+  "bounds": {
+    "minlat": 50.0548282,
+    "minlon": 19.9181340,
+    "maxlat": 50.0570908,
+    "maxlon": 19.9200466
+  },
+  "nodes": [
+    278242809,
+    3763977768,
+    10653007643,
+    10653007644,
+    10653007654,
+    10653007646,
+    278242810,
+    10653007645,
+    10653007651,
+    1924449589,
+    278242812,
+    10992059573,
+    8783397325,
+    278242821
+  ],
+  "geometry": [
+    { "lat": 50.0548282, "lon": 19.9200466 },
+    { "lat": 50.0548800, "lon": 19.9199924 },
+    { "lat": 50.0557783, "lon": 19.9191278 },
+    { "lat": 50.0558773, "lon": 19.9190019 },
+    { "lat": 50.0559158, "lon": 19.9189676 },
+    { "lat": 50.0559386, "lon": 19.9189474 },
+    { "lat": 50.0559810, "lon": 19.9189284 },
+    { "lat": 50.0560301, "lon": 19.9189011 },
+    { "lat": 50.0560500, "lon": 19.9188827 },
+    { "lat": 50.0563916, "lon": 19.9185689 },
+    { "lat": 50.0566794, "lon": 19.9183304 },
+    { "lat": 50.0568951, "lon": 19.9182279 },
+    { "lat": 50.0570365, "lon": 19.9181608 },
+    { "lat": 50.0570908, "lon": 19.9181340 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefa Ignacego Kraszewskiego",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 25598860,
+  "bounds": {
+    "minlat": 50.0566752,
+    "minlon": 19.9295377,
+    "maxlat": 50.0578280,
+    "maxlon": 19.9295786
+  },
+  "nodes": [
+    4276933050,
+    10203052054,
+    10285212291,
+    273761448
+  ],
+  "geometry": [
+    { "lat": 50.0578280, "lon": 19.9295786 },
+    { "lat": 50.0567884, "lon": 19.9295432 },
+    { "lat": 50.0566947, "lon": 19.9295386 },
+    { "lat": 50.0566752, "lon": 19.9295377 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Felicjanek",
+    "oneway": "no",
+    "sidewalk": "both",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q119694169"
+  }
+},
+{
+  "type": "way",
+  "id": 25598861,
+  "bounds": {
+    "minlat": 50.0585302,
+    "minlon": 19.9294567,
+    "maxlat": 50.0588211,
+    "maxlon": 19.9299112
+  },
+  "nodes": [
+    279035503,
+    279035502,
+    279035501,
+    1575971883,
+    279035500,
+    9296475372,
+    279035499
+  ],
+  "geometry": [
+    { "lat": 50.0588211, "lon": 19.9298712 },
+    { "lat": 50.0587045, "lon": 19.9299112 },
+    { "lat": 50.0586386, "lon": 19.9299016 },
+    { "lat": 50.0586044, "lon": 19.9298349 },
+    { "lat": 50.0585434, "lon": 19.9295586 },
+    { "lat": 50.0585382, "lon": 19.9295183 },
+    { "lat": 50.0585302, "lon": 19.9294567 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Bożego Miłosierdzia",
+    "sidewalk:left": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25598863,
+  "bounds": {
+    "minlat": 50.0582410,
+    "minlon": 19.9262159,
+    "maxlat": 50.0586004,
+    "maxlon": 19.9282744
+  },
+  "nodes": [
+    273761354,
+    4187583962,
+    268800781
+  ],
+  "geometry": [
+    { "lat": 50.0582410, "lon": 19.9262159 },
+    { "lat": 50.0585854, "lon": 19.9281888 },
+    { "lat": 50.0586004, "lon": 19.9282744 }
+  ],
+  "tags": {
+    "check_date": "2024-04-23",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Smoleńsk",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q9365953",
+    "wikipedia": "pl:Ulica Smoleńsk w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 25598925,
+  "bounds": {
+    "minlat": 50.0563158,
+    "minlon": 19.9274787,
+    "maxlat": 50.0565444,
+    "maxlon": 19.9279544
+  },
+  "nodes": [
+    273761472,
+    10984607874,
+    3376221661,
+    273761476
+  ],
+  "geometry": [
+    { "lat": 50.0565444, "lon": 19.9279544 },
+    { "lat": 50.0565283, "lon": 19.9278821 },
+    { "lat": 50.0565070, "lon": 19.9278234 },
+    { "lat": 50.0563158, "lon": 19.9274787 }
+  ],
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "maxspeed": "20",
+    "name": "Kazimierza Morawskiego",
+    "source:maxspeed": "PL:living_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26116503,
+  "bounds": {
+    "minlat": 50.0536927,
+    "minlon": 19.9155917,
+    "maxlat": 50.0563941,
+    "maxlon": 19.9177479
+  },
+  "nodes": [
+    251693430,
+    8505249362,
+    1919438458,
+    1919438462,
+    11465474145,
+    251693429,
+    251693428,
+    9556210196,
+    1924460123,
+    12349038320,
+    11465536706,
+    11465536707,
+    11465536708,
+    251693427
+  ],
+  "geometry": [
+    { "lat": 50.0536927, "lon": 19.9177479 },
+    { "lat": 50.0537510, "lon": 19.9176981 },
+    { "lat": 50.0538482, "lon": 19.9176081 },
+    { "lat": 50.0540993, "lon": 19.9173895 },
+    { "lat": 50.0545461, "lon": 19.9170113 },
+    { "lat": 50.0546416, "lon": 19.9169323 },
+    { "lat": 50.0550005, "lon": 19.9166452 },
+    { "lat": 50.0552328, "lon": 19.9164666 },
+    { "lat": 50.0556938, "lon": 19.9161086 },
+    { "lat": 50.0558045, "lon": 19.9160273 },
+    { "lat": 50.0559131, "lon": 19.9159475 },
+    { "lat": 50.0563405, "lon": 19.9156009 },
+    { "lat": 50.0563648, "lon": 19.9155917 },
+    { "lat": 50.0563941, "lon": 19.9155981 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Mlaskotów",
+    "old_name": "Prywatna",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "both",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26116504,
+  "bounds": {
+    "minlat": 50.0567608,
+    "minlon": 19.9166845,
+    "maxlat": 50.0570908,
+    "maxlon": 19.9181340
+  },
+  "nodes": [
+    278242821,
+    8783397323,
+    11950585359,
+    1924471103,
+    8783451659,
+    12349038042,
+    251693605
+  ],
+  "geometry": [
+    { "lat": 50.0570908, "lon": 19.9181340 },
+    { "lat": 50.0570631, "lon": 19.9180129 },
+    { "lat": 50.0569840, "lon": 19.9176478 },
+    { "lat": 50.0568941, "lon": 19.9172019 },
+    { "lat": 50.0567956, "lon": 19.9168008 },
+    { "lat": 50.0567859, "lon": 19.9167684 },
+    { "lat": 50.0567608, "lon": 19.9166845 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Juliana Fałata",
+    "oneway": "yes",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26116505,
+  "bounds": {
+    "minlat": 50.0542842,
+    "minlon": 19.9166845,
+    "maxlat": 50.0567608,
+    "maxlon": 19.9188995
+  },
+  "nodes": [
+    251693605,
+    12349038097,
+    4847731656,
+    4847731657,
+    1924449587,
+    251693606,
+    3218587354,
+    251693607
+  ],
+  "geometry": [
+    { "lat": 50.0567608, "lon": 19.9166845 },
+    { "lat": 50.0567189, "lon": 19.9167210 },
+    { "lat": 50.0564062, "lon": 19.9169877 },
+    { "lat": 50.0561211, "lon": 19.9172235 },
+    { "lat": 50.0555065, "lon": 19.9177442 },
+    { "lat": 50.0554397, "lon": 19.9177996 },
+    { "lat": 50.0543476, "lon": 19.9188375 },
+    { "lat": 50.0542842, "lon": 19.9188995 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Bolesława Prusa",
+    "old_name": "Słoneczna",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26160990,
+  "bounds": {
+    "minlat": 50.0550005,
+    "minlon": 19.9166452,
+    "maxlat": 50.0554397,
+    "maxlon": 19.9177996
+  },
+  "nodes": [
+    251693428,
+    12349038157,
+    13032324723,
+    12349038494,
+    11465536729,
+    251693606
+  ],
+  "geometry": [
+    { "lat": 50.0550005, "lon": 19.9166452 },
+    { "lat": 50.0551410, "lon": 19.9170149 },
+    { "lat": 50.0551618, "lon": 19.9170696 },
+    { "lat": 50.0552504, "lon": 19.9173029 },
+    { "lat": 50.0554056, "lon": 19.9177113 },
+    { "lat": 50.0554397, "lon": 19.9177996 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Salwatorska",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 26161148,
+  "bounds": {
+    "minlat": 50.0564742,
+    "minlon": 19.9224887,
+    "maxlat": 50.0567674,
+    "maxlon": 19.9229641
+  },
+  "nodes": [
+    251693128,
+    6496076804,
+    6718140600,
+    6718140599,
+    286471350
+  ],
+  "geometry": [
+    { "lat": 50.0567674, "lon": 19.9224887 },
+    { "lat": 50.0567326, "lon": 19.9226107 },
+    { "lat": 50.0566944, "lon": 19.9226986 },
+    { "lat": 50.0566250, "lon": 19.9228056 },
+    { "lat": 50.0564742, "lon": 19.9229641 }
+  ],
+  "tags": {
+    "bicycle": "no",
+    "check_date": "2024-04-23",
+    "highway": "living_street",
+    "lanes": "1",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "vehicle": "private"
+  }
+},
+{
+  "type": "way",
+  "id": 26161149,
+  "bounds": {
+    "minlat": 50.0540255,
+    "minlon": 19.9237565,
+    "maxlat": 50.0547527,
+    "maxlon": 19.9249144
+  },
+  "nodes": [
+    30372075,
+    10285258615,
+    8505249319,
+    286471351,
+    13595342211,
+    13595353606,
+    13595342266,
+    13595342205,
+    13595342297,
+    1919370800
+  ],
+  "geometry": [
+    { "lat": 50.0540255, "lon": 19.9240621 },
+    { "lat": 50.0540372, "lon": 19.9240527 },
+    { "lat": 50.0541188, "lon": 19.9239806 },
+    { "lat": 50.0543855, "lon": 19.9237565 },
+    { "lat": 50.0545098, "lon": 19.9241483 },
+    { "lat": 50.0545449, "lon": 19.9242591 },
+    { "lat": 50.0546429, "lon": 19.9245683 },
+    { "lat": 50.0547189, "lon": 19.9248077 },
+    { "lat": 50.0547299, "lon": 19.9248424 },
+    { "lat": 50.0547527, "lon": 19.9249144 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Tatarska",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26493956,
+  "bounds": {
+    "minlat": 50.0553952,
+    "minlon": 19.9240361,
+    "maxlat": 50.0560126,
+    "maxlon": 19.9247372
+  },
+  "nodes": [
+    251693213,
+    1919370831,
+    4157484607,
+    251693214
+  ],
+  "geometry": [
+    { "lat": 50.0560126, "lon": 19.9240361 },
+    { "lat": 50.0557839, "lon": 19.9242908 },
+    { "lat": 50.0554783, "lon": 19.9246422 },
+    { "lat": 50.0553952, "lon": 19.9247372 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Włóczków",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "7.2"
+  }
+},
+{
+  "type": "way",
+  "id": 29325724,
+  "bounds": {
+    "minlat": 50.0552173,
+    "minlon": 19.9274290,
+    "maxlat": 50.0552932,
+    "maxlon": 19.9275792
+  },
+  "nodes": [
+    207440039,
+    2419720318
+  ],
+  "geometry": [
+    { "lat": 50.0552932, "lon": 19.9275792 },
+    { "lat": 50.0552173, "lon": 19.9274290 }
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Zwierzyniecka",
+    "oneway": "yes",
+    "parking:condition:both": "no_stopping",
+    "parking:lane:both": "no",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37832001,
+  "bounds": {
+    "minlat": 50.0567761,
+    "minlon": 19.9256441,
+    "maxlat": 50.0581534,
+    "maxlon": 19.9264610
+  },
+  "nodes": [
+    207439167,
+    273798828,
+    11089060344,
+    273798826
+  ],
+  "geometry": [
+    { "lat": 50.0581534, "lon": 19.9256441 },
+    { "lat": 50.0576031, "lon": 19.9259730 },
+    { "lat": 50.0571934, "lon": 19.9262291 },
+    { "lat": 50.0567761, "lon": 19.9264610 }
+  ],
+  "tags": {
+    "bus:lanes": "||designated",
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K",
+    "vehicle:lanes": "yes|yes|no"
+  }
+},
+{
+  "type": "way",
+  "id": 44422893,
+  "bounds": {
+    "minlat": 50.0545623,
+    "minlon": 19.9195114,
+    "maxlat": 50.0548282,
+    "maxlon": 19.9200466
+  },
+  "nodes": [
+    278242809,
+    3113217572,
+    251693006
+  ],
+  "geometry": [
+    { "lat": 50.0548282, "lon": 19.9200466 },
+    { "lat": 50.0546268, "lon": 19.9196506 },
+    { "lat": 50.0545623, "lon": 19.9195114 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Senatorska",
+    "oneway": "no",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 44422894,
+  "bounds": {
+    "minlat": 50.0542478,
+    "minlon": 19.9200985,
+    "maxlat": 50.0549499,
+    "maxlon": 19.9213895
+  },
+  "nodes": [
+    1919370794,
+    1919370795,
+    564683774,
+    630963219,
+    9311098709,
+    251693234
+  ],
+  "geometry": [
+    { "lat": 50.0542478, "lon": 19.9200985 },
+    { "lat": 50.0543498, "lon": 19.9202767 },
+    { "lat": 50.0543933, "lon": 19.9203600 },
+    { "lat": 50.0547234, "lon": 19.9211096 },
+    { "lat": 50.0548001, "lon": 19.9212143 },
+    { "lat": 50.0549499, "lon": 19.9213895 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Plac Na Stawach",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 44422895,
+  "bounds": {
+    "minlat": 50.0552563,
+    "minlon": 19.9197110,
+    "maxlat": 50.0563945,
+    "maxlon": 19.9209885
+  },
+  "nodes": [
+    251693282,
+    7791040722,
+    3113218703,
+    251693266
+  ],
+  "geometry": [
+    { "lat": 50.0563945, "lon": 19.9197110 },
+    { "lat": 50.0563353, "lon": 19.9197877 },
+    { "lat": 50.0553018, "lon": 19.9209377 },
+    { "lat": 50.0552563, "lon": 19.9209885 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Filarecka",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "6.7"
+  }
+},
+{
+  "type": "way",
+  "id": 44422896,
+  "bounds": {
+    "minlat": 50.0558207,
+    "minlon": 19.9250820,
+    "maxlat": 50.0570128,
+    "maxlon": 19.9256879
+  },
+  "nodes": [
+    290370921,
+    4157484648,
+    273761484
+  ],
+  "geometry": [
+    { "lat": 50.0570128, "lon": 19.9250820 },
+    { "lat": 50.0558968, "lon": 19.9256492 },
+    { "lat": 50.0558207, "lon": 19.9256879 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Władysława Syrokomli",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 44422897,
+  "bounds": {
+    "minlat": 50.0570128,
+    "minlon": 19.9246319,
+    "maxlat": 50.0578309,
+    "maxlon": 19.9250820
+  },
+  "nodes": [
+    290370921,
+    8505202115,
+    251693124
+  ],
+  "geometry": [
+    { "lat": 50.0570128, "lon": 19.9250820 },
+    { "lat": 50.0577675, "lon": 19.9246708 },
+    { "lat": 50.0578309, "lon": 19.9246319 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Władysława Syrokomli",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 44422899,
+  "bounds": {
+    "minlat": 50.0536927,
+    "minlon": 19.9177479,
+    "maxlat": 50.0545623,
+    "maxlon": 19.9195114
+  },
+  "nodes": [
+    251693006,
+    251693607,
+    1919370792,
+    1919370791,
+    5603705382,
+    251693430
+  ],
+  "geometry": [
+    { "lat": 50.0545623, "lon": 19.9195114 },
+    { "lat": 50.0542842, "lon": 19.9188995 },
+    { "lat": 50.0542036, "lon": 19.9187398 },
+    { "lat": 50.0540680, "lon": 19.9184796 },
+    { "lat": 50.0538210, "lon": 19.9179980 },
+    { "lat": 50.0536927, "lon": 19.9177479 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Senatorska",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "oneway:conditional": "no @ 2024 Mar 18-2024 Sept 30",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 48705326,
+  "bounds": {
+    "minlat": 50.0556480,
+    "minlon": 19.9218480,
+    "maxlat": 50.0572299,
+    "maxlon": 19.9230333
+  },
+  "nodes": [
+    251693126,
+    7781590953,
+    7781590951,
+    1919370883,
+    251693127,
+    11987635742,
+    251693128,
+    286471348,
+    3940944691,
+    251693129
+  ],
+  "geometry": [
+    { "lat": 50.0572299, "lon": 19.9230333 },
+    { "lat": 50.0571858, "lon": 19.9229282 },
+    { "lat": 50.0571441, "lon": 19.9228661 },
+    { "lat": 50.0571183, "lon": 19.9228227 },
+    { "lat": 50.0570236, "lon": 19.9226949 },
+    { "lat": 50.0569245, "lon": 19.9225952 },
+    { "lat": 50.0567674, "lon": 19.9224887 },
+    { "lat": 50.0561703, "lon": 19.9221436 },
+    { "lat": 50.0557452, "lon": 19.9218883 },
+    { "lat": 50.0556480, "lon": 19.9218480 }
+  ],
+  "tags": {
+    "check_date": "2024-04-17",
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rotmistrza Zbigniewa Dunin-Wąsowicza",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 48705328,
+  "bounds": {
+    "minlat": 50.0588531,
+    "minlon": 19.9224493,
+    "maxlat": 50.0589392,
+    "maxlon": 19.9224739
+  },
+  "nodes": [
+    618318827,
+    12331331188,
+    13818553388,
+    278242808
+  ],
+  "geometry": [
+    { "lat": 50.0588531, "lon": 19.9224739 },
+    { "lat": 50.0588975, "lon": 19.9224612 },
+    { "lat": 50.0589215, "lon": 19.9224543 },
+    { "lat": 50.0589392, "lon": 19.9224493 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Józefa Kałuży",
+    "parking:condition:both": "no_stopping",
+    "sidewalk": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 48705329,
+  "bounds": {
+    "minlat": 50.0544740,
+    "minlon": 19.9252528,
+    "maxlat": 50.0548696,
+    "maxlon": 19.9256533
+  },
+  "nodes": [
+    251693215,
+    1919438465,
+    2639870180,
+    9072247343,
+    251693217
+  ],
+  "geometry": [
+    { "lat": 50.0548696, "lon": 19.9252528 },
+    { "lat": 50.0547838, "lon": 19.9253473 },
+    { "lat": 50.0545654, "lon": 19.9255554 },
+    { "lat": 50.0544836, "lon": 19.9256439 },
+    { "lat": 50.0544740, "lon": 19.9256533 }
+  ],
+  "tags": {
+    "hgv": "no",
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Włóczków",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 48705330,
+  "bounds": {
+    "minlat": 50.0545108,
+    "minlon": 19.9257792,
+    "maxlat": 50.0546171,
+    "maxlon": 19.9260996
+  },
+  "nodes": [
+    283044048,
+    4157482760,
+    5256574702,
+    30372078
+  ],
+  "geometry": [
+    { "lat": 50.0545108, "lon": 19.9257792 },
+    { "lat": 50.0545417, "lon": 19.9258732 },
+    { "lat": 50.0545859, "lon": 19.9260056 },
+    { "lat": 50.0546171, "lon": 19.9260996 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 48705331,
+  "bounds": {
+    "minlat": 50.0544740,
+    "minlon": 19.9256533,
+    "maxlat": 50.0545108,
+    "maxlon": 19.9257792
+  },
+  "nodes": [
+    251693217,
+    283044048
+  ],
+  "geometry": [
+    { "lat": 50.0544740, "lon": 19.9256533 },
+    { "lat": 50.0545108, "lon": 19.9257792 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 101322354,
+  "bounds": {
+    "minlat": 50.0548648,
+    "minlon": 19.9265944,
+    "maxlat": 50.0552173,
+    "maxlon": 19.9274290
+  },
+  "nodes": [
+    2419720318,
+    752177398,
+    12894601310
+  ],
+  "geometry": [
+    { "lat": 50.0552173, "lon": 19.9274290 },
+    { "lat": 50.0551067, "lon": 19.9271771 },
+    { "lat": 50.0548648, "lon": 19.9265944 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Tadeusza Kościuszki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 101322356,
+  "bounds": {
+    "minlat": 50.0546171,
+    "minlon": 19.9260996,
+    "maxlat": 50.0547546,
+    "maxlon": 19.9266591
+  },
+  "nodes": [
+    30372078,
+    10285212304,
+    9072247336,
+    13372253211,
+    1169737288
+  ],
+  "geometry": [
+    { "lat": 50.0546171, "lon": 19.9260996 },
+    { "lat": 50.0546211, "lon": 19.9261532 },
+    { "lat": 50.0546324, "lon": 19.9262748 },
+    { "lat": 50.0547409, "lon": 19.9266159 },
+    { "lat": 50.0547546, "lon": 19.9266591 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 101322361,
+  "bounds": {
+    "minlat": 50.0551406,
+    "minlon": 19.9275832,
+    "maxlat": 50.0560602,
+    "maxlon": 19.9289356
+  },
+  "nodes": [
+    1876808668,
+    13005061506,
+    6140684209,
+    6140684207,
+    1169737278,
+    6140686448,
+    13372253212,
+    13372253213,
+    1169737329,
+    2263117826,
+    6171058652,
+    1169737312,
+    1876808652,
+    1918114412,
+    6171090597,
+    2143514396
+  ],
+  "geometry": [
+    { "lat": 50.0551406, "lon": 19.9275832 },
+    { "lat": 50.0552316, "lon": 19.9277233 },
+    { "lat": 50.0553089, "lon": 19.9278771 },
+    { "lat": 50.0553254, "lon": 19.9279128 },
+    { "lat": 50.0553357, "lon": 19.9279348 },
+    { "lat": 50.0553515, "lon": 19.9279683 },
+    { "lat": 50.0553901, "lon": 19.9280492 },
+    { "lat": 50.0554181, "lon": 19.9281058 },
+    { "lat": 50.0554977, "lon": 19.9282458 },
+    { "lat": 50.0556508, "lon": 19.9284859 },
+    { "lat": 50.0556853, "lon": 19.9285281 },
+    { "lat": 50.0557916, "lon": 19.9286583 },
+    { "lat": 50.0558978, "lon": 19.9287756 },
+    { "lat": 50.0559952, "lon": 19.9288755 },
+    { "lat": 50.0560374, "lon": 19.9289145 },
+    { "lat": 50.0560602, "lon": 19.9289356 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes": "through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 115554871,
+  "bounds": {
+    "minlat": 50.0570908,
+    "minlon": 19.9178466,
+    "maxlat": 50.0579319,
+    "maxlon": 19.9181340
+  },
+  "nodes": [
+    278242821,
+    12349104206,
+    11950585346
+  ],
+  "geometry": [
+    { "lat": 50.0570908, "lon": 19.9181340 },
+    { "lat": 50.0571192, "lon": 19.9181243 },
+    { "lat": 50.0579319, "lon": 19.9178466 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefa Ignacego Kraszewskiego",
+    "oneway": "no",
+    "sidewalk:left": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 115554872,
+  "bounds": {
+    "minlat": 50.0591513,
+    "minlon": 19.9239344,
+    "maxlat": 50.0592896,
+    "maxlon": 19.9239667
+  },
+  "nodes": [
+    1305162491,
+    4045457522,
+    1305162493,
+    4045457499,
+    1305162497,
+    1305162484
+  ],
+  "geometry": [
+    { "lat": 50.0591513, "lon": 19.9239344 },
+    { "lat": 50.0591986, "lon": 19.9239589 },
+    { "lat": 50.0592205, "lon": 19.9239667 },
+    { "lat": 50.0592441, "lon": 19.9239659 },
+    { "lat": 50.0592600, "lon": 19.9239606 },
+    { "lat": 50.0592896, "lon": 19.9239443 }
+  ],
+  "tags": {
+    "cycleway:right": "no",
+    "foot": "no",
+    "highway": "tertiary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja 3 Maja",
+    "oneway": "yes",
+    "parking:condition:both": "no_stopping",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 126106951,
+  "bounds": {
+    "minlat": 50.0551886,
+    "minlon": 19.9274290,
+    "maxlat": 50.0552173,
+    "maxlon": 19.9274870
+  },
+  "nodes": [
+    2419720318,
+    9072247333,
+    12825812355
+  ],
+  "geometry": [
+    { "lat": 50.0552173, "lon": 19.9274290 },
+    { "lat": 50.0551965, "lon": 19.9274717 },
+    { "lat": 50.0551886, "lon": 19.9274870 }
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "40",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "short_name": "Aleje",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 126106953,
+  "bounds": {
+    "minlat": 50.0552932,
+    "minlon": 19.9272220,
+    "maxlat": 50.0560524,
+    "maxlon": 19.9275792
+  },
+  "nodes": [
+    207440039,
+    2143515231,
+    11089060349,
+    663041732
+  ],
+  "geometry": [
+    { "lat": 50.0552932, "lon": 19.9275792 },
+    { "lat": 50.0554464, "lon": 19.9275126 },
+    { "lat": 50.0558688, "lon": 19.9273114 },
+    { "lat": 50.0560524, "lon": 19.9272220 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 131079852,
+  "bounds": {
+    "minlat": 50.0550293,
+    "minlon": 19.9256879,
+    "maxlat": 50.0558207,
+    "maxlon": 19.9264217
+  },
+  "nodes": [
+    4157482784,
+    4157482787,
+    10634480296,
+    251693150,
+    4157484620,
+    4157484632,
+    273761484
+  ],
+  "geometry": [
+    { "lat": 50.0550293, "lon": 19.9264217 },
+    { "lat": 50.0550941, "lon": 19.9263450 },
+    { "lat": 50.0554302, "lon": 19.9259411 },
+    { "lat": 50.0555384, "lon": 19.9258418 },
+    { "lat": 50.0556220, "lon": 19.9257856 },
+    { "lat": 50.0557539, "lon": 19.9257241 },
+    { "lat": 50.0558207, "lon": 19.9256879 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Władysława Syrokomli",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 181520070,
+  "bounds": {
+    "minlat": 50.0547527,
+    "minlon": 19.9249144,
+    "maxlat": 50.0548009,
+    "maxlon": 19.9250553
+  },
+  "nodes": [
+    1919370800,
+    1919370802
+  ],
+  "geometry": [
+    { "lat": 50.0547527, "lon": 19.9249144 },
+    { "lat": 50.0548009, "lon": 19.9250553 }
+  ],
+  "tags": {
+    "covered": "yes",
+    "highway": "residential",
+    "maxheight": "default",
+    "maxspeed": "30",
+    "name": "Tatarska",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 181520071,
+  "bounds": {
+    "minlat": 50.0548009,
+    "minlon": 19.9250553,
+    "maxlat": 50.0548696,
+    "maxlon": 19.9252528
+  },
+  "nodes": [
+    1919370802,
+    8505249318,
+    251693215
+  ],
+  "geometry": [
+    { "lat": 50.0548009, "lon": 19.9250553 },
+    { "lat": 50.0548239, "lon": 19.9251215 },
+    { "lat": 50.0548696, "lon": 19.9252528 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Tatarska",
+    "oneway": "yes",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 184308569,
+  "bounds": {
+    "minlat": 50.0591513,
+    "minlon": 19.9239344,
+    "maxlat": 50.0592533,
+    "maxlon": 19.9245420
+  },
+  "nodes": [
+    226228402,
+    13799575625,
+    1305162491
+  ],
+  "geometry": [
+    { "lat": 50.0592533, "lon": 19.9245420 },
+    { "lat": 50.0592248, "lon": 19.9244371 },
+    { "lat": 50.0591513, "lon": 19.9239344 }
+  ],
+  "tags": {
+    "destination:lanes:backward": "Centrum|Rzeszów;Tarnów;Wieliczka;Warszawa;Katowice",
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "parking:condition:both": "no_stopping",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turn:lanes:backward": "through|right",
+    "turn:lanes:forward": "through",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 204041393,
+  "bounds": {
+    "minlat": 50.0551406,
+    "minlon": 19.9275792,
+    "maxlat": 50.0552932,
+    "maxlon": 19.9275841
+  },
+  "nodes": [
+    1876808668,
+    9072247332,
+    12825812356,
+    2143514387,
+    207440039
+  ],
+  "geometry": [
+    { "lat": 50.0551406, "lon": 19.9275832 },
+    { "lat": 50.0552077, "lon": 19.9275841 },
+    { "lat": 50.0552268, "lon": 19.9275810 },
+    { "lat": 50.0552420, "lon": 19.9275805 },
+    { "lat": 50.0552932, "lon": 19.9275792 }
+  ],
+  "tags": {
+    "cycleway:left": "no",
+    "cycleway:right": "separate",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "short_name": "Aleje",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 204347060,
+  "bounds": {
+    "minlat": 50.0564249,
+    "minlon": 19.9292515,
+    "maxlat": 50.0566752,
+    "maxlon": 19.9295377
+  },
+  "nodes": [
+    2143514404,
+    4187405417,
+    273761448
+  ],
+  "geometry": [
+    { "lat": 50.0564249, "lon": 19.9292515 },
+    { "lat": 50.0565231, "lon": 19.9293605 },
+    { "lat": 50.0566752, "lon": 19.9295377 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 216987194,
+  "bounds": {
+    "minlat": 50.0554099,
+    "minlon": 19.9305215,
+    "maxlat": 50.0556647,
+    "maxlon": 19.9315730
+  },
+  "nodes": [
+    236139461,
+    752177515,
+    13004919922,
+    13004919931
+  ],
+  "geometry": [
+    { "lat": 50.0554099, "lon": 19.9315730 },
+    { "lat": 50.0554443, "lon": 19.9314322 },
+    { "lat": 50.0555425, "lon": 19.9310220 },
+    { "lat": 50.0556647, "lon": 19.9305215 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 216987195,
+  "bounds": {
+    "minlat": 50.0558481,
+    "minlon": 19.9295159,
+    "maxlat": 50.0559095,
+    "maxlon": 19.9297526
+  },
+  "nodes": [
+    2263092335,
+    5977755502
+  ],
+  "geometry": [
+    { "lat": 50.0558481, "lon": 19.9297526 },
+    { "lat": 50.0559095, "lon": 19.9295159 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|right"
+  }
+},
+{
+  "type": "way",
+  "id": 216988890,
+  "bounds": {
+    "minlat": 50.0547948,
+    "minlon": 19.9267763,
+    "maxlat": 50.0551406,
+    "maxlon": 19.9275832
+  },
+  "nodes": [
+    1443326067,
+    13372253210,
+    5726056948,
+    8739610647,
+    2611597787,
+    6137076012,
+    13005061452,
+    1876808668
+  ],
+  "geometry": [
+    { "lat": 50.0547948, "lon": 19.9267763 },
+    { "lat": 50.0548369, "lon": 19.9268854 },
+    { "lat": 50.0549768, "lon": 19.9272283 },
+    { "lat": 50.0549877, "lon": 19.9272554 },
+    { "lat": 50.0550006, "lon": 19.9272885 },
+    { "lat": 50.0550133, "lon": 19.9273264 },
+    { "lat": 50.0550288, "lon": 19.9273636 },
+    { "lat": 50.0551406, "lon": 19.9275832 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Tadeusza Kościuszki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "sign",
+    "surface": "asphalt",
+    "turn:lanes": "through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 216988891,
+  "bounds": {
+    "minlat": 50.0560602,
+    "minlon": 19.9289356,
+    "maxlat": 50.0563350,
+    "maxlon": 19.9291473
+  },
+  "nodes": [
+    2143514396,
+    13372262589,
+    13372262590,
+    10285258610,
+    13372262577
+  ],
+  "geometry": [
+    { "lat": 50.0560602, "lon": 19.9289356 },
+    { "lat": 50.0561668, "lon": 19.9290403 },
+    { "lat": 50.0561903, "lon": 19.9290575 },
+    { "lat": 50.0562710, "lon": 19.9291068 },
+    { "lat": 50.0563350, "lon": 19.9291473 }
+  ],
+  "tags": {
+    "dual_carriageway": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 216993331,
+  "bounds": {
+    "minlat": 50.0534835,
+    "minlon": 19.9221139,
+    "maxlat": 50.0538841,
+    "maxlon": 19.9235550
+  },
+  "nodes": [
+    630963217,
+    2425638914,
+    11069799136,
+    278234332,
+    8505249344,
+    251693131
+  ],
+  "geometry": [
+    { "lat": 50.0534835, "lon": 19.9221139 },
+    { "lat": 50.0535563, "lon": 19.9223694 },
+    { "lat": 50.0536638, "lon": 19.9227527 },
+    { "lat": 50.0537220, "lon": 19.9229640 },
+    { "lat": 50.0537862, "lon": 19.9232032 },
+    { "lat": 50.0538841, "lon": 19.9235550 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "4",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "oneway": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 221502574,
+  "bounds": {
+    "minlat": 50.0563041,
+    "minlon": 19.9237418,
+    "maxlat": 50.0570128,
+    "maxlon": 19.9250820
+  },
+  "nodes": [
+    251693212,
+    290370919,
+    290370920,
+    8772044441,
+    8505202116,
+    9730388578,
+    290370921
+  ],
+  "geometry": [
+    { "lat": 50.0563041, "lon": 19.9237479 },
+    { "lat": 50.0563457, "lon": 19.9237418 },
+    { "lat": 50.0563943, "lon": 19.9237745 },
+    { "lat": 50.0568145, "lon": 19.9246628 },
+    { "lat": 50.0569733, "lon": 19.9249985 },
+    { "lat": 50.0569822, "lon": 19.9250172 },
+    { "lat": 50.0570128, "lon": 19.9250820 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Kornela Ujejskiego",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 242481879,
+  "bounds": {
+    "minlat": 50.0578309,
+    "minlon": 19.9246319,
+    "maxlat": 50.0580309,
+    "maxlon": 19.9252272
+  },
+  "nodes": [
+    2499424236,
+    10632874189,
+    251693124
+  ],
+  "geometry": [
+    { "lat": 50.0580309, "lon": 19.9252272 },
+    { "lat": 50.0578697, "lon": 19.9247472 },
+    { "lat": 50.0578309, "lon": 19.9246319 }
+  ],
+  "tags": {
+    "hgv": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rotmistrza Zbigniewa Dunin-Wąsowicza",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 255471343,
+  "bounds": {
+    "minlat": 50.0560602,
+    "minlon": 19.9288777,
+    "maxlat": 50.0560845,
+    "maxlon": 19.9289356
+  },
+  "nodes": [
+    2143514396,
+    10285212297,
+    12825812363
+  ],
+  "geometry": [
+    { "lat": 50.0560602, "lon": 19.9289356 },
+    { "lat": 50.0560757, "lon": 19.9288987 },
+    { "lat": 50.0560845, "lon": 19.9288777 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|right"
+  }
+},
+{
+  "type": "way",
+  "id": 271771232,
+  "bounds": {
+    "minlat": 50.0563313,
+    "minlon": 19.9279544,
+    "maxlat": 50.0565444,
+    "maxlon": 19.9282207
+  },
+  "nodes": [
+    273761472,
+    10984607875,
+    10984607876,
+    7999711233
+  ],
+  "geometry": [
+    { "lat": 50.0565444, "lon": 19.9279544 },
+    { "lat": 50.0564938, "lon": 19.9279891 },
+    { "lat": 50.0564632, "lon": 19.9280203 },
+    { "lat": 50.0563313, "lon": 19.9282207 }
+  ],
+  "tags": {
+    "highway": "living_street",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "20",
+    "name": "Plac Juliusza Kossaka",
+    "oneway": "yes",
+    "parking:lane:both": "parallel",
+    "source:maxspeed": "PL:living_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 277117067,
+  "bounds": {
+    "minlat": 50.0552173,
+    "minlon": 19.9268760,
+    "maxlat": 50.0559764,
+    "maxlon": 19.9274290
+  },
+  "nodes": [
+    207439169,
+    11089060342,
+    1169737331,
+    6137075995,
+    2419720318
+  ],
+  "geometry": [
+    { "lat": 50.0559764, "lon": 19.9268760 },
+    { "lat": 50.0557452, "lon": 19.9270186 },
+    { "lat": 50.0555221, "lon": 19.9271766 },
+    { "lat": 50.0552850, "lon": 19.9273670 },
+    { "lat": 50.0552173, "lon": 19.9274290 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "destination:lanes": "Centrum|Rzeszów|Rzeszów||Mysłowice;Chyżne",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "40",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turn:lanes": "left|through|through|right",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 277117079,
+  "bounds": {
+    "minlat": 50.0564850,
+    "minlon": 19.9267714,
+    "maxlat": 50.0568888,
+    "maxlon": 19.9269950
+  },
+  "nodes": [
+    2403408326,
+    273798747
+  ],
+  "geometry": [
+    { "lat": 50.0564850, "lon": 19.9269950 },
+    { "lat": 50.0568888, "lon": 19.9267714 }
+  ],
+  "tags": {
+    "bus:lanes": "|||designated",
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turn:lanes": "reverse|||",
+    "unsigned_ref": "2203K",
+    "vehicle:lanes": "yes|yes|yes|no"
+  }
+},
+{
+  "type": "way",
+  "id": 277117085,
+  "bounds": {
+    "minlat": 50.0568888,
+    "minlon": 19.9260322,
+    "maxlat": 50.0582287,
+    "maxlon": 19.9267714
+  },
+  "nodes": [
+    273798747,
+    273798845,
+    1798893366,
+    279035505
+  ],
+  "geometry": [
+    { "lat": 50.0568888, "lon": 19.9267714 },
+    { "lat": 50.0577001, "lon": 19.9263671 },
+    { "lat": 50.0581866, "lon": 19.9260577 },
+    { "lat": 50.0582287, "lon": 19.9260322 }
+  ],
+  "tags": {
+    "bus:lanes": "||designated",
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K",
+    "vehicle:lanes": "yes|yes|no"
+  }
+},
+{
+  "type": "way",
+  "id": 277117090,
+  "bounds": {
+    "minlat": 50.0560524,
+    "minlon": 19.9269950,
+    "maxlat": 50.0564850,
+    "maxlon": 19.9272220
+  },
+  "nodes": [
+    663041732,
+    2403408326
+  ],
+  "geometry": [
+    { "lat": 50.0560524, "lon": 19.9272220 },
+    { "lat": 50.0564850, "lon": 19.9269950 }
+  ],
+  "tags": {
+    "bus:lanes": "||designated",
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K",
+    "vehicle:lanes": "yes|yes|no"
+  }
+},
+{
+  "type": "way",
+  "id": 299714315,
+  "bounds": {
+    "minlat": 50.0547749,
+    "minlon": 19.9275832,
+    "maxlat": 50.0551406,
+    "maxlon": 19.9278603
+  },
+  "nodes": [
+    1876808668,
+    6140231059,
+    3761874090,
+    6140231061,
+    207441054
+  ],
+  "geometry": [
+    { "lat": 50.0551406, "lon": 19.9275832 },
+    { "lat": 50.0550103, "lon": 19.9276746 },
+    { "lat": 50.0549857, "lon": 19.9276918 },
+    { "lat": 50.0549485, "lon": 19.9277216 },
+    { "lat": 50.0547749, "lon": 19.9278603 }
+  ],
+  "tags": {
+    "cycleway:both": "separate",
+    "foot": "no",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Most Dębnicki",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 307924268,
+  "bounds": {
+    "minlat": 50.0589028,
+    "minlon": 19.9221944,
+    "maxlat": 50.0589392,
+    "maxlon": 19.9224493
+  },
+  "nodes": [
+    278242808,
+    618318825
+  ],
+  "geometry": [
+    { "lat": 50.0589392, "lon": 19.9224493 },
+    { "lat": 50.0589028, "lon": 19.9221944 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "parking:condition:both": "no_stopping",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 372635876,
+  "bounds": {
+    "minlat": 50.0534062,
+    "minlon": 19.9278603,
+    "maxlat": 50.0547749,
+    "maxlon": 19.9289242
+  },
+  "nodes": [
+    207441054,
+    3037566731
+  ],
+  "geometry": [
+    { "lat": 50.0547749, "lon": 19.9278603 },
+    { "lat": 50.0534062, "lon": 19.9289242 }
+  ],
+  "tags": {
+    "bicycle": "use_sidepath",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "primary",
+    "lanes": "4",
+    "lanes:backward": "2",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxweight:signed": "no",
+    "name": "Most Dębnicki",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "shoulder": "no",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 374310172,
+  "bounds": {
+    "minlat": 50.0562740,
+    "minlon": 19.9237479,
+    "maxlat": 50.0563041,
+    "maxlon": 19.9237757
+  },
+  "nodes": [
+    3776760942,
+    13248216893,
+    251693212
+  ],
+  "geometry": [
+    { "lat": 50.0562740, "lon": 19.9237757 },
+    { "lat": 50.0562898, "lon": 19.9237611 },
+    { "lat": 50.0563041, "lon": 19.9237479 }
+  ],
+  "tags": {
+    "cycleway": "opposite_lane",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Włóczków",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 374310174,
+  "bounds": {
+    "minlat": 50.0560367,
+    "minlon": 19.9237757,
+    "maxlat": 50.0562740,
+    "maxlon": 19.9240127
+  },
+  "nodes": [
+    3776760941,
+    3776760942
+  ],
+  "geometry": [
+    { "lat": 50.0560367, "lon": 19.9240127 },
+    { "lat": 50.0562740, "lon": 19.9237757 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Włóczków",
+    "note": "kontrapas nie został odmalowany po wymianie asfaltu. Może przy odnowie oznakowania pojawi sie ponownie",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 377114759,
+  "bounds": {
+    "minlat": 50.0564249,
+    "minlon": 19.9278784,
+    "maxlat": 50.0598412,
+    "maxlon": 19.9292515
+  },
+  "nodes": [
+    2143514404,
+    10285212298,
+    2646091034,
+    7315238300,
+    7315238299,
+    10984607873,
+    3531321643,
+    273769850,
+    3531321661,
+    2557776808,
+    2920531335,
+    2557776823,
+    273761359,
+    3037964280,
+    10285212299,
+    2616178230
+  ],
+  "geometry": [
+    { "lat": 50.0564249, "lon": 19.9292515 },
+    { "lat": 50.0564319, "lon": 19.9292354 },
+    { "lat": 50.0564641, "lon": 19.9291608 },
+    { "lat": 50.0565835, "lon": 19.9289223 },
+    { "lat": 50.0566105, "lon": 19.9288969 },
+    { "lat": 50.0566429, "lon": 19.9288899 },
+    { "lat": 50.0566824, "lon": 19.9288851 },
+    { "lat": 50.0579629, "lon": 19.9286868 },
+    { "lat": 50.0580305, "lon": 19.9286712 },
+    { "lat": 50.0586079, "lon": 19.9285707 },
+    { "lat": 50.0586593, "lon": 19.9285730 },
+    { "lat": 50.0587164, "lon": 19.9285707 },
+    { "lat": 50.0588851, "lon": 19.9285134 },
+    { "lat": 50.0597775, "lon": 19.9279264 },
+    { "lat": 50.0598305, "lon": 19.9278865 },
+    { "lat": 50.0598412, "lon": 19.9278784 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Retoryka",
+    "oneway": "yes",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q9365901",
+    "wikipedia": "pl:Ulica Retoryka w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 414631280,
+  "bounds": {
+    "minlat": 50.0553952,
+    "minlon": 19.9247372,
+    "maxlat": 50.0558207,
+    "maxlon": 19.9256879
+  },
+  "nodes": [
+    273761484,
+    338275083,
+    4157484618,
+    10634626282,
+    4157484603,
+    251693214
+  ],
+  "geometry": [
+    { "lat": 50.0558207, "lon": 19.9256879 },
+    { "lat": 50.0556553, "lon": 19.9253280 },
+    { "lat": 50.0556060, "lon": 19.9252133 },
+    { "lat": 50.0555425, "lon": 19.9250698 },
+    { "lat": 50.0554304, "lon": 19.9248167 },
+    { "lat": 50.0553952, "lon": 19.9247372 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Kazimierza Morawskiego",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 431445477,
+  "bounds": {
+    "minlat": 50.0582287,
+    "minlon": 19.9252940,
+    "maxlat": 50.0593578,
+    "maxlon": 19.9260322
+  },
+  "nodes": [
+    279035505,
+    1798872935,
+    752177452,
+    226214980
+  ],
+  "geometry": [
+    { "lat": 50.0582287, "lon": 19.9260322 },
+    { "lat": 50.0591600, "lon": 19.9254144 },
+    { "lat": 50.0592306, "lon": 19.9253699 },
+    { "lat": 50.0593578, "lon": 19.9252940 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "excellent",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turn:lanes": "through|through|right",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 431445478,
+  "bounds": {
+    "minlat": 50.0590497,
+    "minlon": 19.9232237,
+    "maxlat": 50.0591513,
+    "maxlon": 19.9239344
+  },
+  "nodes": [
+    1305162491,
+    288711073,
+    2419843895,
+    8466826131
+  ],
+  "geometry": [
+    { "lat": 50.0591513, "lon": 19.9239344 },
+    { "lat": 50.0591398, "lon": 19.9238546 },
+    { "lat": 50.0590793, "lon": 19.9234306 },
+    { "lat": 50.0590497, "lon": 19.9232237 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "parking:condition:both": "no_stopping",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 486729876,
+  "bounds": {
+    "minlat": 50.0549499,
+    "minlon": 19.9210299,
+    "maxlat": 50.0552751,
+    "maxlon": 19.9213895
+  },
+  "nodes": [
+    251693005,
+    3113218702,
+    3113218700,
+    251693234
+  ],
+  "geometry": [
+    { "lat": 50.0552751, "lon": 19.9210299 },
+    { "lat": 50.0552177, "lon": 19.9210934 },
+    { "lat": 50.0550334, "lon": 19.9212971 },
+    { "lat": 50.0549499, "lon": 19.9213895 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Plac Na Stawach",
+    "oneway": "yes",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "7"
+  }
+},
+{
+  "type": "way",
+  "id": 506268019,
+  "bounds": {
+    "minlat": 50.0548696,
+    "minlon": 19.9247372,
+    "maxlat": 50.0553952,
+    "maxlon": 19.9252528
+  },
+  "nodes": [
+    251693214,
+    1919438469,
+    251693215
+  ],
+  "geometry": [
+    { "lat": 50.0553952, "lon": 19.9247372 },
+    { "lat": 50.0552852, "lon": 19.9248490 },
+    { "lat": 50.0548696, "lon": 19.9252528 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "30",
+    "name": "Włóczków",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 506268020,
+  "bounds": {
+    "minlat": 50.0572299,
+    "minlon": 19.9230333,
+    "maxlat": 50.0578309,
+    "maxlon": 19.9246319
+  },
+  "nodes": [
+    251693124,
+    12331331183,
+    251693126
+  ],
+  "geometry": [
+    { "lat": 50.0578309, "lon": 19.9246319 },
+    { "lat": 50.0573085, "lon": 19.9232423 },
+    { "lat": 50.0572299, "lon": 19.9230333 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Rotmistrza Zbigniewa Dunin-Wąsowicza",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545626662,
+  "bounds": {
+    "minlat": 50.0580485,
+    "minlon": 19.9294567,
+    "maxlat": 50.0585302,
+    "maxlon": 19.9295413
+  },
+  "nodes": [
+    279035499,
+    8622303243,
+    2920531334
+  ],
+  "geometry": [
+    { "lat": 50.0585302, "lon": 19.9294567 },
+    { "lat": 50.0581068, "lon": 19.9295311 },
+    { "lat": 50.0580485, "lon": 19.9295413 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Felicjanek",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q119694169"
+  }
+},
+{
+  "type": "way",
+  "id": 545626663,
+  "bounds": {
+    "minlat": 50.0578280,
+    "minlon": 19.9295413,
+    "maxlat": 50.0580485,
+    "maxlon": 19.9295786
+  },
+  "nodes": [
+    2920531334,
+    4276933050
+  ],
+  "geometry": [
+    { "lat": 50.0580485, "lon": 19.9295413 },
+    { "lat": 50.0578280, "lon": 19.9295786 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Felicjanek",
+    "parking:condition:left": "no_stopping",
+    "parking:right": "yes",
+    "parking:right:orientation": "parallel",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q119694169"
+  }
+},
+{
+  "type": "way",
+  "id": 547861716,
+  "bounds": {
+    "minlat": 50.0586593,
+    "minlon": 19.9285730,
+    "maxlat": 50.0588249,
+    "maxlon": 19.9293697
+  },
+  "nodes": [
+    2920531335,
+    4187583963,
+    4187583965,
+    2920531336
+  ],
+  "geometry": [
+    { "lat": 50.0586593, "lon": 19.9285730 },
+    { "lat": 50.0586722, "lon": 19.9286360 },
+    { "lat": 50.0587445, "lon": 19.9290541 },
+    { "lat": 50.0588249, "lon": 19.9293697 }
+  ],
+  "tags": {
+    "cycleway:left": "no",
+    "cycleway:right": "shoulder",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Smoleńsk",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "parking:condition:left": "no_stopping",
+    "parking:lane:right": "parallel",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q9365953",
+    "wikipedia": "pl:Ulica Smoleńsk w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 596029358,
+  "bounds": {
+    "minlat": 50.0554397,
+    "minlon": 19.9177996,
+    "maxlat": 50.0566154,
+    "maxlon": 19.9201350
+  },
+  "nodes": [
+    251693606,
+    10653007642,
+    278242810,
+    10653007647,
+    5714076890,
+    251693282,
+    7791040724,
+    11987635749,
+    11987635750,
+    251693283
+  ],
+  "geometry": [
+    { "lat": 50.0554397, "lon": 19.9177996 },
+    { "lat": 50.0559551, "lon": 19.9188795 },
+    { "lat": 50.0559810, "lon": 19.9189284 },
+    { "lat": 50.0560109, "lon": 19.9189826 },
+    { "lat": 50.0563570, "lon": 19.9196565 },
+    { "lat": 50.0563945, "lon": 19.9197110 },
+    { "lat": 50.0564294, "lon": 19.9197736 },
+    { "lat": 50.0564684, "lon": 19.9198568 },
+    { "lat": 50.0565685, "lon": 19.9200672 },
+    { "lat": 50.0566154, "lon": 19.9201350 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Salwatorska",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "6"
+  }
+},
+{
+  "type": "way",
+  "id": 600704985,
+  "bounds": {
+    "minlat": 50.0538841,
+    "minlon": 19.9235550,
+    "maxlat": 50.0544740,
+    "maxlon": 19.9256533
+  },
+  "nodes": [
+    251693131,
+    8505249338,
+    30372075,
+    13256569363,
+    13256569371,
+    3755926425,
+    1919438464,
+    251693217
+  ],
+  "geometry": [
+    { "lat": 50.0538841, "lon": 19.9235550 },
+    { "lat": 50.0539987, "lon": 19.9239685 },
+    { "lat": 50.0540255, "lon": 19.9240621 },
+    { "lat": 50.0541939, "lon": 19.9246648 },
+    { "lat": 50.0543235, "lon": 19.9251224 },
+    { "lat": 50.0544129, "lon": 19.9254381 },
+    { "lat": 50.0544328, "lon": 19.9255071 },
+    { "lat": 50.0544740, "lon": 19.9256533 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "4",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 611245655,
+  "bounds": {
+    "minlat": 50.0553159,
+    "minlon": 19.9222646,
+    "maxlat": 50.0560126,
+    "maxlon": 19.9240361
+  },
+  "nodes": [
+    8480942872,
+    13248235001,
+    8480828491,
+    251693213
+  ],
+  "geometry": [
+    { "lat": 50.0553159, "lon": 19.9222646 },
+    { "lat": 50.0557678, "lon": 19.9234148 },
+    { "lat": 50.0559782, "lon": 19.9239507 },
+    { "lat": 50.0560126, "lon": 19.9240361 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Michała Stachowicza",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "5.3"
+  }
+},
+{
+  "type": "way",
+  "id": 683370248,
+  "bounds": {
+    "minlat": 50.0583070,
+    "minlon": 19.9224739,
+    "maxlat": 50.0588531,
+    "maxlon": 19.9226467
+  },
+  "nodes": [
+    1693481290,
+    618318827
+  ],
+  "geometry": [
+    { "lat": 50.0583070, "lon": 19.9226467 },
+    { "lat": 50.0588531, "lon": 19.9224739 }
+  ],
+  "tags": {
+    "check_date": "2024-04-17",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefa Kałuży",
+    "sidewalk:both": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 688721094,
+  "bounds": {
+    "minlat": 50.0556876,
+    "minlon": 19.9301806,
+    "maxlat": 50.0557452,
+    "maxlon": 19.9304155
+  },
+  "nodes": [
+    5977755496,
+    6459449599
+  ],
+  "geometry": [
+    { "lat": 50.0556876, "lon": 19.9304155 },
+    { "lat": 50.0557452, "lon": 19.9301806 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 688721095,
+  "bounds": {
+    "minlat": 50.0557452,
+    "minlon": 19.9297526,
+    "maxlat": 50.0558481,
+    "maxlon": 19.9301806
+  },
+  "nodes": [
+    6459449599,
+    6459449601,
+    2263092335
+  ],
+  "geometry": [
+    { "lat": 50.0557452, "lon": 19.9301806 },
+    { "lat": 50.0557647, "lon": 19.9300975 },
+    { "lat": 50.0558481, "lon": 19.9297526 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 692468162,
+  "bounds": {
+    "minlat": 50.0581534,
+    "minlon": 19.9253108,
+    "maxlat": 50.0586270,
+    "maxlon": 19.9256441
+  },
+  "nodes": [
+    6500875278,
+    1798893368,
+    1919370887,
+    207439167
+  ],
+  "geometry": [
+    { "lat": 50.0586270, "lon": 19.9253108 },
+    { "lat": 50.0582964, "lon": 19.9255426 },
+    { "lat": 50.0582494, "lon": 19.9255776 },
+    { "lat": 50.0581534, "lon": 19.9256441 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "50",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turn:lanes": "through|through|right",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 692469258,
+  "bounds": {
+    "minlat": 50.0584917,
+    "minlon": 19.9193155,
+    "maxlat": 50.0589028,
+    "maxlon": 19.9221944
+  },
+  "nodes": [
+    618318825,
+    1693481285,
+    6441702912,
+    7772960850
+  ],
+  "geometry": [
+    { "lat": 50.0589028, "lon": 19.9221944 },
+    { "lat": 50.0588710, "lon": 19.9219720 },
+    { "lat": 50.0588233, "lon": 19.9216380 },
+    { "lat": 50.0584917, "lon": 19.9193155 }
+  ],
+  "tags": {
+    "bus:lanes:backward": "|designated",
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 692469260,
+  "bounds": {
+    "minlat": 50.0583049,
+    "minlon": 19.9180074,
+    "maxlat": 50.0583507,
+    "maxlon": 19.9183278
+  },
+  "nodes": [
+    2920754267,
+    278242823
+  ],
+  "geometry": [
+    { "lat": 50.0583507, "lon": 19.9183278 },
+    { "lat": 50.0583049, "lon": 19.9180074 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 783315506,
+  "bounds": {
+    "minlat": 50.0586004,
+    "minlon": 19.9282744,
+    "maxlat": 50.0586593,
+    "maxlon": 19.9285730
+  },
+  "nodes": [
+    268800781,
+    279042033,
+    2920531335
+  ],
+  "geometry": [
+    { "lat": 50.0586004, "lon": 19.9282744 },
+    { "lat": 50.0586359, "lon": 19.9284505 },
+    { "lat": 50.0586593, "lon": 19.9285730 }
+  ],
+  "tags": {
+    "cycleway:left": "lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Smoleńsk",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "wikidata": "Q9365953",
+    "wikipedia": "pl:Ulica Smoleńsk w Krakowie"
+  }
+},
+{
+  "type": "way",
+  "id": 803767518,
+  "bounds": {
+    "minlat": 50.0561035,
+    "minlon": 19.9282207,
+    "maxlat": 50.0563313,
+    "maxlon": 19.9285531
+  },
+  "nodes": [
+    7999711233,
+    273761494,
+    273761491
+  ],
+  "geometry": [
+    { "lat": 50.0563313, "lon": 19.9282207 },
+    { "lat": 50.0561994, "lon": 19.9284136 },
+    { "lat": 50.0561035, "lon": 19.9285531 }
+  ],
+  "tags": {
+    "highway": "living_street",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "20",
+    "name": "Plac Juliusza Kossaka",
+    "parking:lane:both": "parallel",
+    "source:maxspeed": "PL:living_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 827659843,
+  "bounds": {
+    "minlat": 50.0576970,
+    "minlon": 19.9297683,
+    "maxlat": 50.0577965,
+    "maxlon": 19.9303672
+  },
+  "nodes": [
+    7726812130,
+    7726812131
+  ],
+  "geometry": [
+    { "lat": 50.0576970, "lon": 19.9303672 },
+    { "lat": 50.0577965, "lon": 19.9297683 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Mała",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "parking:both": "yes",
+    "parking:both:orientation": "parallel",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 827660265,
+  "bounds": {
+    "minlat": 50.0577965,
+    "minlon": 19.9295786,
+    "maxlat": 50.0578280,
+    "maxlon": 19.9297683
+  },
+  "nodes": [
+    7726812131,
+    8622322816,
+    4276933050
+  ],
+  "geometry": [
+    { "lat": 50.0577965, "lon": 19.9297683 },
+    { "lat": 50.0578104, "lon": 19.9296855 },
+    { "lat": 50.0578280, "lon": 19.9295786 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Mała",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "parking:condition:both": "no_stopping",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 832569290,
+  "bounds": {
+    "minlat": 50.0583507,
+    "minlon": 19.9183278,
+    "maxlat": 50.0584917,
+    "maxlon": 19.9193155
+  },
+  "nodes": [
+    7772960850,
+    2920754267
+  ],
+  "geometry": [
+    { "lat": 50.0584917, "lon": 19.9193155 },
+    { "lat": 50.0583507, "lon": 19.9183278 }
+  ],
+  "tags": {
+    "bus:lanes:backward": "|designated",
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 858093196,
+  "bounds": {
+    "minlat": 50.0563313,
+    "minlon": 19.9281893,
+    "maxlat": 50.0565758,
+    "maxlon": 19.9282345
+  },
+  "nodes": [
+    2767108822,
+    7999711234,
+    10984607869,
+    10984607870,
+    7999711233
+  ],
+  "geometry": [
+    { "lat": 50.0565758, "lon": 19.9281893 },
+    { "lat": 50.0564135, "lon": 19.9282318 },
+    { "lat": 50.0563902, "lon": 19.9282345 },
+    { "lat": 50.0563669, "lon": 19.9282318 },
+    { "lat": 50.0563313, "lon": 19.9282207 }
+  ],
+  "tags": {
+    "highway": "living_street",
+    "maxspeed": "20",
+    "source:maxspeed": "PL:living_street",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 907862379,
+  "bounds": {
+    "minlat": 50.0563350,
+    "minlon": 19.9291473,
+    "maxlat": 50.0564249,
+    "maxlon": 19.9292515
+  },
+  "nodes": [
+    13372262577,
+    2143514404
+  ],
+  "geometry": [
+    { "lat": 50.0563350, "lon": 19.9291473 },
+    { "lat": 50.0564249, "lon": 19.9292515 }
+  ],
+  "tags": {
+    "dual_carriageway": "no",
+    "highway": "tertiary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "oneway": "no",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 907862380,
+  "bounds": {
+    "minlat": 50.0561177,
+    "minlon": 19.9288098,
+    "maxlat": 50.0563350,
+    "maxlon": 19.9291473
+  },
+  "nodes": [
+    13372262577,
+    13372262591,
+    13372262588,
+    13372262587,
+    13372262586,
+    13372262585,
+    13372262584,
+    2419720327
+  ],
+  "geometry": [
+    { "lat": 50.0563350, "lon": 19.9291473 },
+    { "lat": 50.0563266, "lon": 19.9291215 },
+    { "lat": 50.0562961, "lon": 19.9290278 },
+    { "lat": 50.0562842, "lon": 19.9290012 },
+    { "lat": 50.0562672, "lon": 19.9289692 },
+    { "lat": 50.0562557, "lon": 19.9289549 },
+    { "lat": 50.0562411, "lon": 19.9289405 },
+    { "lat": 50.0561177, "lon": 19.9288098 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 911803861,
+  "bounds": {
+    "minlat": 50.0589392,
+    "minlon": 19.9224493,
+    "maxlat": 50.0590497,
+    "maxlon": 19.9232237
+  },
+  "nodes": [
+    8466826131,
+    278242808
+  ],
+  "geometry": [
+    { "lat": 50.0590497, "lon": 19.9232237 },
+    { "lat": 50.0589392, "lon": 19.9224493 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "parking:condition:both": "no_stopping",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|through",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 915635796,
+  "bounds": {
+    "minlat": 50.0552833,
+    "minlon": 19.9221899,
+    "maxlat": 50.0553159,
+    "maxlon": 19.9222646
+  },
+  "nodes": [
+    251693232,
+    8480942872
+  ],
+  "geometry": [
+    { "lat": 50.0552833, "lon": 19.9221899 },
+    { "lat": 50.0553159, "lon": 19.9222646 }
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Michała Stachowicza",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 915635799,
+  "bounds": {
+    "minlat": 50.0552504,
+    "minlon": 19.9221170,
+    "maxlat": 50.0552833,
+    "maxlon": 19.9221899
+  },
+  "nodes": [
+    8505249356,
+    251693232
+  ],
+  "geometry": [
+    { "lat": 50.0552504, "lon": 19.9221170 },
+    { "lat": 50.0552833, "lon": 19.9221899 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Michała Stachowicza",
+    "oneway": "yes",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1009151104,
+  "bounds": {
+    "minlat": 50.0541805,
+    "minlon": 19.9221899,
+    "maxlat": 50.0552833,
+    "maxlon": 19.9232858
+  },
+  "nodes": [
+    1655086493,
+    13595342283,
+    1919370823,
+    8505249348,
+    251693232
+  ],
+  "geometry": [
+    { "lat": 50.0541805, "lon": 19.9232858 },
+    { "lat": 50.0546433, "lon": 19.9228259 },
+    { "lat": 50.0551930, "lon": 19.9222796 },
+    { "lat": 50.0552412, "lon": 19.9222317 },
+    { "lat": 50.0552833, "lon": 19.9221899 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Marcina Borelowskiego-Lelewela",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1009151105,
+  "bounds": {
+    "minlat": 50.0555803,
+    "minlon": 19.9218480,
+    "maxlat": 50.0556480,
+    "maxlon": 19.9218946
+  },
+  "nodes": [
+    3940944772,
+    251693129
+  ],
+  "geometry": [
+    { "lat": 50.0555803, "lon": 19.9218946 },
+    { "lat": 50.0556480, "lon": 19.9218480 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Marcina Borelowskiego-Lelewela",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "both",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1009151106,
+  "bounds": {
+    "minlat": 50.0552833,
+    "minlon": 19.9218946,
+    "maxlat": 50.0555803,
+    "maxlon": 19.9221899
+  },
+  "nodes": [
+    251693232,
+    8480942873,
+    3940944772
+  ],
+  "geometry": [
+    { "lat": 50.0552833, "lon": 19.9221899 },
+    { "lat": 50.0553199, "lon": 19.9221535 },
+    { "lat": 50.0555803, "lon": 19.9218946 }
+  ],
+  "tags": {
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Marcina Borelowskiego-Lelewela",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "8.7"
+  }
+},
+{
+  "type": "way",
+  "id": 1057645409,
+  "bounds": {
+    "minlat": 50.0571192,
+    "minlon": 19.9181243,
+    "maxlat": 50.0572073,
+    "maxlon": 19.9183470
+  },
+  "nodes": [
+    12349104206,
+    12349104207,
+    278242822
+  ],
+  "geometry": [
+    { "lat": 50.0571192, "lon": 19.9181243 },
+    { "lat": 50.0571612, "lon": 19.9182256 },
+    { "lat": 50.0572073, "lon": 19.9183470 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Juliana Fałata",
+    "oneway": "yes",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1221362740,
+  "bounds": {
+    "minlat": 50.0559764,
+    "minlon": 19.9264610,
+    "maxlat": 50.0567761,
+    "maxlon": 19.9268760
+  },
+  "nodes": [
+    273798826,
+    815569081,
+    207439169
+  ],
+  "geometry": [
+    { "lat": 50.0567761, "lon": 19.9264610 },
+    { "lat": 50.0560955, "lon": 19.9268142 },
+    { "lat": 50.0559764, "lon": 19.9268760 }
+  ],
+  "tags": {
+    "bus:lanes": "||designated",
+    "cycleway:both": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "40",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "short_name": "Aleje",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K",
+    "vehicle:lanes": "yes|yes|no"
+  }
+},
+{
+  "type": "way",
+  "id": 1298880009,
+  "bounds": {
+    "minlat": 50.0552751,
+    "minlon": 19.9210299,
+    "maxlat": 50.0556480,
+    "maxlon": 19.9218480
+  },
+  "nodes": [
+    251693129,
+    3113217573,
+    251693005
+  ],
+  "geometry": [
+    { "lat": 50.0556480, "lon": 19.9218480 },
+    { "lat": 50.0553101, "lon": 19.9211066 },
+    { "lat": 50.0552751, "lon": 19.9210299 }
+  ],
+  "tags": {
+    "check_date": "2024-04-17",
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Senatorska",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "source:width": "ARCore",
+    "surface": "asphalt",
+    "width": "9"
+  }
+},
+{
+  "type": "way",
+  "id": 1298880010,
+  "bounds": {
+    "minlat": 50.0552563,
+    "minlon": 19.9209885,
+    "maxlat": 50.0552751,
+    "maxlon": 19.9210299
+  },
+  "nodes": [
+    251693005,
+    251693266
+  ],
+  "geometry": [
+    { "lat": 50.0552751, "lon": 19.9210299 },
+    { "lat": 50.0552563, "lon": 19.9209885 }
+  ],
+  "tags": {
+    "check_date": "2024-04-17",
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Senatorska",
+    "oneway": "no",
+    "oneway:bicycle": "no",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1320424853,
+  "bounds": {
+    "minlat": 50.0582654,
+    "minlon": 19.9177309,
+    "maxlat": 50.0583049,
+    "maxlon": 19.9180074
+  },
+  "nodes": [
+    278242823,
+    2920754266,
+    278242814
+  ],
+  "geometry": [
+    { "lat": 50.0583049, "lon": 19.9180074 },
+    { "lat": 50.0582750, "lon": 19.9177977 },
+    { "lat": 50.0582654, "lon": 19.9177309 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 1320424854,
+  "bounds": {
+    "minlat": 50.0580449,
+    "minlon": 19.9177309,
+    "maxlat": 50.0582654,
+    "maxlon": 19.9178074
+  },
+  "nodes": [
+    6472404957,
+    12349104205,
+    2500840874,
+    278242814
+  ],
+  "geometry": [
+    { "lat": 50.0580449, "lon": 19.9178074 },
+    { "lat": 50.0581633, "lon": 19.9177656 },
+    { "lat": 50.0581983, "lon": 19.9177532 },
+    { "lat": 50.0582654, "lon": 19.9177309 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefa Ignacego Kraszewskiego",
+    "oneway": "no",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "yes",
+    "sidewalk:right:surface": "paving_stones",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1320424855,
+  "bounds": {
+    "minlat": 50.0579319,
+    "minlon": 19.9178074,
+    "maxlat": 50.0580449,
+    "maxlon": 19.9178466
+  },
+  "nodes": [
+    11950585346,
+    6472404957
+  ],
+  "geometry": [
+    { "lat": 50.0579319, "lon": 19.9178466 },
+    { "lat": 50.0580449, "lon": 19.9178074 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Józefa Ignacego Kraszewskiego",
+    "oneway": "no",
+    "sidewalk:left": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1320424857,
+  "bounds": {
+    "minlat": 50.0580573,
+    "minlon": 19.9162731,
+    "maxlat": 50.0582250,
+    "maxlon": 19.9174475
+  },
+  "nodes": [
+    12353595216,
+    12353595217
+  ],
+  "geometry": [
+    { "lat": 50.0582250, "lon": 19.9174475 },
+    { "lat": 50.0580573, "lon": 19.9162731 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "3",
+    "lanes:backward": "2",
+    "lanes:forward": "1",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 1335317998,
+  "bounds": {
+    "minlat": 50.0582250,
+    "minlon": 19.9174475,
+    "maxlat": 50.0582654,
+    "maxlon": 19.9177309
+  },
+  "nodes": [
+    278242814,
+    12353595216
+  ],
+  "geometry": [
+    { "lat": 50.0582654, "lon": 19.9177309 },
+    { "lat": 50.0582250, "lon": 19.9174475 }
+  ],
+  "tags": {
+    "highway": "tertiary",
+    "highway:category:pl": "3",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Aleja Marszałka Ferdinanda Focha",
+    "sidewalk": "separate",
+    "smoothness": "intermediate",
+    "surface": "asphalt",
+    "unsigned_ref": "2259K"
+  }
+},
+{
+  "type": "way",
+  "id": 1344534038,
+  "bounds": {
+    "minlat": 50.0548282,
+    "minlon": 19.9200466,
+    "maxlat": 50.0550278,
+    "maxlon": 19.9204872
+  },
+  "nodes": [
+    11372293823,
+    3113218699,
+    278242809
+  ],
+  "geometry": [
+    { "lat": 50.0550278, "lon": 19.9204872 },
+    { "lat": 50.0548610, "lon": 19.9201211 },
+    { "lat": 50.0548282, "lon": 19.9200466 }
+  ],
+  "tags": {
+    "check_date": "2024-04-17",
+    "cycleway:left": "opposite_lane",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Senatorska",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "smoothness": "good",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1385346725,
+  "bounds": {
+    "minlat": 50.0551406,
+    "minlon": 19.9274870,
+    "maxlat": 50.0551886,
+    "maxlon": 19.9275832
+  },
+  "nodes": [
+    12825812355,
+    9072247334,
+    1876808668
+  ],
+  "geometry": [
+    { "lat": 50.0551886, "lon": 19.9274870 },
+    { "lat": 50.0551766, "lon": 19.9275080 },
+    { "lat": 50.0551406, "lon": 19.9275832 }
+  ],
+  "tags": {
+    "cycleway": "no",
+    "dual_carriageway": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "loc_name": "Aleje Trzech Wieszczów",
+    "maxspeed": "40",
+    "name": "Aleja Zygmunta Krasińskiego",
+    "oneway": "yes",
+    "parking:both": "no",
+    "parking:condition:both": "no_stopping",
+    "short_name": "Aleje",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "PL:urban",
+    "surface": "asphalt",
+    "unsigned_ref": "2203K"
+  }
+},
+{
+  "type": "way",
+  "id": 1385346726,
+  "bounds": {
+    "minlat": 50.0560845,
+    "minlon": 19.9288098,
+    "maxlat": 50.0561177,
+    "maxlon": 19.9288777
+  },
+  "nodes": [
+    12825812363,
+    2143514395,
+    2419720327
+  ],
+  "geometry": [
+    { "lat": 50.0560845, "lon": 19.9288777 },
+    { "lat": 50.0560897, "lon": 19.9288653 },
+    { "lat": 50.0561177, "lon": 19.9288098 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|right"
+  }
+},
+{
+  "type": "way",
+  "id": 1385350538,
+  "bounds": {
+    "minlat": 50.0559095,
+    "minlon": 19.9289356,
+    "maxlat": 50.0560602,
+    "maxlon": 19.9295159
+  },
+  "nodes": [
+    5977755502,
+    2646091016,
+    2143514396
+  ],
+  "geometry": [
+    { "lat": 50.0559095, "lon": 19.9295159 },
+    { "lat": 50.0560256, "lon": 19.9290690 },
+    { "lat": 50.0560602, "lon": 19.9289356 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt",
+    "turn:lanes:forward": "left|right"
+  }
+},
+{
+  "type": "way",
+  "id": 1392975571,
+  "bounds": {
+    "minlat": 50.0546171,
+    "minlon": 19.9260996,
+    "maxlat": 50.0548648,
+    "maxlon": 19.9265944
+  },
+  "nodes": [
+    12894601310,
+    13005061438,
+    4157482765,
+    9072247335,
+    10285212301,
+    30372078
+  ],
+  "geometry": [
+    { "lat": 50.0548648, "lon": 19.9265944 },
+    { "lat": 50.0548241, "lon": 19.9264963 },
+    { "lat": 50.0547534, "lon": 19.9263259 },
+    { "lat": 50.0547007, "lon": 19.9261970 },
+    { "lat": 50.0546464, "lon": 19.9261303 },
+    { "lat": 50.0546171, "lon": 19.9260996 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "source:maxspeed": "sign",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1392975572,
+  "bounds": {
+    "minlat": 50.0547546,
+    "minlon": 19.9266591,
+    "maxlat": 50.0547948,
+    "maxlon": 19.9267763
+  },
+  "nodes": [
+    1169737288,
+    1443326067
+  ],
+  "geometry": [
+    { "lat": 50.0547546, "lon": 19.9266591 },
+    { "lat": 50.0547948, "lon": 19.9267763 }
+  ],
+  "tags": {
+    "dual_carriageway": "yes",
+    "highway": "tertiary",
+    "highway:category:pl": "2",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Tadeusza Kościuszki",
+    "oneway": "yes",
+    "sidewalk": "separate",
+    "smoothness": "good",
+    "source:maxspeed": "sign",
+    "surface": "asphalt",
+    "turn:lanes": "through|right"
+  }
+},
+{
+  "type": "way",
+  "id": 1415230742,
+  "bounds": {
+    "minlat": 50.0556647,
+    "minlon": 19.9304155,
+    "maxlat": 50.0556876,
+    "maxlon": 19.9305215
+  },
+  "nodes": [
+    13004919931,
+    5977755496
+  ],
+  "geometry": [
+    { "lat": 50.0556647, "lon": 19.9305215 },
+    { "lat": 50.0556876, "lon": 19.9304155 }
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lanes:backward": "1",
+    "lanes:forward": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Powiśle",
+    "sidewalk": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1419337861,
+  "bounds": {
+    "minlat": 50.0576389,
+    "minlon": 19.9307172,
+    "maxlat": 50.0584698,
+    "maxlon": 19.9325055
+  },
+  "nodes": [
+    30372085,
+    4187405439,
+    13050934809,
+    13042566492,
+    3024563466
+  ],
+  "geometry": [
+    { "lat": 50.0576389, "lon": 19.9307172 },
+    { "lat": 50.0577100, "lon": 19.9308492 },
+    { "lat": 50.0582258, "lon": 19.9319734 },
+    { "lat": 50.0583548, "lon": 19.9322547 },
+    { "lat": 50.0584698, "lon": 19.9325055 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1419337862,
+  "bounds": {
+    "minlat": 50.0566752,
+    "minlon": 19.9295377,
+    "maxlat": 50.0576389,
+    "maxlon": 19.9307172
+  },
+  "nodes": [
+    273761448,
+    11327909235,
+    11327909236,
+    30372084,
+    8465644177,
+    8465644188,
+    30372085
+  ],
+  "geometry": [
+    { "lat": 50.0566752, "lon": 19.9295377 },
+    { "lat": 50.0568834, "lon": 19.9297920 },
+    { "lat": 50.0568927, "lon": 19.9298032 },
+    { "lat": 50.0569210, "lon": 19.9298379 },
+    { "lat": 50.0573383, "lon": 19.9303435 },
+    { "lat": 50.0573509, "lon": 19.9303589 },
+    { "lat": 50.0576389, "lon": 19.9307172 }
+  ],
+  "tags": {
+    "cycleway:both": "no",
+    "highway": "tertiary",
+    "lanes": "2",
+    "maxspeed": "30",
+    "name": "Zwierzyniecka",
+    "sidewalk:both": "separate",
+    "source:maxspeed": "PL:zone30",
+    "surface": "concrete"
+  }
+}
+
+  ]
+}

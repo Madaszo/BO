@@ -24,7 +24,7 @@ data = json.load(f)
 graph = {"edges":[], "nodes":[], "crew_costs":[], "budget":0}
 
 graph["crew_costs"] = [6, 8, 7, 10, 9, 11]
-graph["budget"] = 400
+graph["budget"] = 20000
 
 weights = {
     "unclassified":1, 
